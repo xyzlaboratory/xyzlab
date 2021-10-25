@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home</title>
+<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
+<link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg main-navbar">
+	<div class="container-fluid">			
+	  <a class="navbar-brand" href="#">
+		<img src="img/home/logo.png" alt="Logo">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon">
+			<i class="ion-navicon"></i>
+		</span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+		  <div class="mr-auto"></div>
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+              <a class="nav-link smooth-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-link" href="#Introduction">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-link" href="#Publication">Publication</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <section class="hero bg-overlay" id="Home" data-bg="img/home/nebula.jpg">
+      <div class="text">
+          <p class="lead">Future media technology and Computing</p>
+          <h1>Future<span class="bold"> media</span>, based on <span class="bold">artificial intelligence</span>.</h1>
+          <div class="cta">
+              <a href="#Introduction" class="btn btn-primary smooth-link">Get Started</a>
+              <div class="link">
+                  <a href="#">Under the SZU License</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<section class="padding" id="Introduction">
+	<div class="container">
+		<div class="row" style="margin-bottom: 35px">
+			<div class="col-12 col-md-4 col-sm-12">
+				<div class="list-item">
+					<div class="icon">
+						<i class="ion-code"></i>
+					</div>
+					<div class="desc">
+						<h2>What We Do</h2>
+						<p>
+							Under the general trend of artificial intelligence, we are exploring the future media technology.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-sm-12">
+				<div class="list-item">
+					<div class="icon">
+						<i class="ion-person"></i>
+					</div>
+					<div class="desc">
+						<h2>person in charge</h2>
+						<p>
+							<a href="http://futuremedia.szu.edu.cn/peopleXiaoyanZhang.aspx">Xiaoyan Zhang</a>, from China, is the head of our team and an associate professor of Shenzhen University.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-sm-12">
+				<div class="list-item no-spacing">
+					<div class="icon">
+						<i class="ion-android-star"></i>
+					</div>
+					<div class="desc">
+						<h2>Research direction</h2>
+						<p>
+							Multimedia content analysis, 2D / 3D image and video enhancement and editing, 3D human body and face modeling and so on.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-4 col-sm-12">
+				<div class="list-item">
+					<div class="icon">
+						<i class="ion-social-github"></i>
+					</div>
+					<div class="desc">
+						<h2>Open Source</h2>
+						<p>
+							Our code is open source on GitHub. If you need it, you can download and learn it directly.
+						</p>
+						<a href="https://github.com/luneijun" class="more">Go to </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-sm-12">
+				<div class="list-item">
+					<div class="icon">
+						<i class="ion-trophy"></i>
+					</div>
+					<div class="desc">
+						<h2>achievement</h2>
+						<p>
+							All our achievements are written down, shown to them and publicized to the outside.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-sm-12">
+				<div class="list-item no-spacing">
+					<div class="icon">
+						<i class="ion-person-add"></i>
+					</div>
+					<div class="desc">
+						<h2>Join us</h2>
+						<p>
+							Welcome to join us. We recruit new members through the China graduate enrollment examination.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="padding bg-grey" id="Publication">
+	<div class="container">
+		<div class="row align-items-center mt-5">
+			<div class="col-12 col-md-6">
+				<h2>Latest research results</h2>
+				<p class="text-muted">We will update our work dynamics from time to time for us to learn and communicate.</p>
+			</div>
+			<div class="col-12 col-md-6">
+				<form class="subscribe" action="javascript:void(0);">
+					<input type="search" name="search" class="form-control" placeholder="Article title or author's name" id="searchInput">
+					<button id="searchBtn" class="btn btn-primary" >Search</button>
+				</form>
+			</div>
+		</div>
+		<div class="section-body">
+			<div class="row col-spacing" id="blogList">
+
+			</div>
+		</div>
+		<!--分页栏-->
+		<div class="col">
+			<ul class="pagination justify-content-center" id="paginationId">
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="padding bg-grey" id="contact">
+	<div class="container">
+		<h2 class="section-title text-center">Contact Us</h2>
+		<p class="section-lead text-center text-muted">Send us your inquiry, we will help you and reply as soon as possible</p>
+		<div class="section-body">				
+			<div class="row col-spacing">
+				<div class="col-12 col-md-10">
+					<p class="contact-text">You can send us something like a question or project, we are open 09:00 to 17:00.</p>
+					<ul class="contact-icon">
+                        <li><i class="ion ion-ios-location"></i> <div>Research Institute For Future Media Computing, No. 3688, Nanhai Avenue, Nanshan District, Shenzhen, Guangdong, China</div></li>
+						<li><i class="ion ion-ios-telephone"></i> <div>+6212345123</div></li>
+						<li><i class="ion ion-ios-email"></i> <div>13456@email.szu.edu.cn</div></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<figure>
+			<img src="img/home/logo.png" alt="Logo">
+		</figure>
+		<p>Copyright &copy; 2021.Research Institute For Future Media Computing All rights reserved.</p>
+	</div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery.easeScroll.js"></script>
+<script src="sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/paperList.js"></script>
+</body>
+</html>
