@@ -8,7 +8,7 @@ let totalNum = 0;
 let pageCount = 0;
 
 //默认每页显示数
-let pageSize = 6;
+let pageSize = 9;
 
 //默认显示第一页
 let currentPage = 1;

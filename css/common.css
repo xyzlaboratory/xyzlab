@@ -344,7 +344,7 @@ section.bg-overlay {
 }
 
 section.padding {
-	padding: 100px 0;
+	padding: 100px 0 100px 0;
 }
 
 section#blog {
