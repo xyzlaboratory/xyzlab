@@ -51,7 +51,7 @@ html, body {
 
 .overlay {
 	background-color: #000;
-	opacity: .85;
+	opacity: 0.70;
 	position: absolute;
 	top: 0;
 	left: 0;
