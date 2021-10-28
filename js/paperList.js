@@ -13,6 +13,8 @@ let pageSize = 9;
 //默认显示第一页
 let currentPage = 1;
 
+let initPaperList = [];
+
 let paperList = [];
 
 let currentPaperList = [];
@@ -29,7 +31,8 @@ function getPageList(loading){
             loading.hide();
         },
         success: function(data) {
-            paperList = data;
+            initPaperList = data;
+            paperList = initPaperList.slice().reverse();
             pageCount = (paperList.length%pageSize>0)?(Math.ceil(paperList.length/pageSize)):(Math.floor(paperList.length/pageSize));
             currentPage = 1;
             currentPaperList = paperList;
@@ -73,11 +76,12 @@ function showPage() {
         card += '<article class="card">';
         card += '<img class="card-img-top" src="'+paper.picture+'" alt="Article Image">';
         card += '<div class="card-body">';
-        card += '<div class="card-subtitle mb-2 text-muted"><a href="'+paper.github+'">GITHUB</a>&nbsp;&nbsp;<a href="'+paper.pdf+'">PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;'+paper.date+'</div>';
+        //card += '<div class="card-subtitle mb-2 text-muted"><a href="'+paper.github+'">GITHUB</a>&nbsp;&nbsp;<a href="'+paper.pdf+'">PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;'+paper.date+'</div>';
+        card += '<div class="card-subtitle mb-2 text-muted">'+paper.date+'</div>';
         card += '<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">'+paper.title+'</a></h4>';
         card += '<p class="card-text">'+paper.brief+'</p>';
         card += '<div class="text-right">';
-        card += '<a href="javascript:void(0);" class="card-more" data-toggle="learnMore" data-id="'+paper.id+'">Read More <i class="ion-ios-arrow-right"></i></a>';
+        card += '<a href="javascript:void(0);" class="card-more" data-toggle="learnMore" data-id="'+paper.id+'">Project page <i class="ion-ios-arrow-right"></i></a>';
         card += '</div>';
         card += '</div>';
         card += '</article>';
@@ -90,7 +94,6 @@ function showPage() {
 }
 
 function initPagination() {
-    debugger
     let pagination = $("#paginationId");
     pagination.empty();
     if(pageCount == 0) return;
@@ -188,16 +191,15 @@ function learnMore(e) {
     $element += '<h1 class="article-title">{title}</h1>';
     $element += '<div class="article-metas">';
     $element += '<div class="meta">';
+    $element += '	{author}';
+    $element += '</div>';
+    $element += '</div>';
+    $element += '<div class="article-metas">';
+    $element += '<div class="meta">';
     $element += '	{date}';
     $element += '</div>';
     $element += '<div class="meta">';
     $element += '	{category}';
-    $element += '</div>';
-    $element += '<div class="meta">';
-    $element += '	{author}';
-    $element += '</div>';
-    $element += '<div class="meta">';
-    $element += '	<a href="{github}">github</a>';
     $element += '</div>';
     $element += '<div class="meta">';
     $element += '	<a href="{pdf}">pdf</a>';
@@ -205,12 +207,13 @@ function learnMore(e) {
     $element += '</div>';
     $element += '<figure class="article-picture"><img src="{picture}"></figure>';
     $element += '<div class="article-content">';
+    $element += '<h4>Abstract</h4>';
     $element += '{content}';
     $element += '</div>';
     $element += '</div>';
     $element += '</div>';
 
-    let data = paperList[cardId];
+    let data = initPaperList[cardId];
     console.log(data)
     let reg = /{([a-zA-Z0-9]+)}/g,
         element = $element;
