@@ -453,7 +453,8 @@ article.card {
 }
 
 article.card .card-img-top {
-	height: 100%;
+	height: 180px;
+	object-fit: cover;
 }
 
 article.card .card-title {
@@ -489,7 +490,6 @@ article.card .card-subtitle a {
 article.card .card-more {
 	text-transform: uppercase;
 	font-weight: 800;
-	text-transform: 2px;
 	color: #000;
 	display: inline-block;
 	margin-top: 10px;
