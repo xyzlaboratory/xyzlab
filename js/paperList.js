@@ -19,6 +19,10 @@ let paperList = [];
 
 let currentPaperList = [];
 
+let $element
+
+let windowUrl = 'home'
+
 function getPageList(loading){
     $.ajax({
         url: "mock/paperList.json",
@@ -182,7 +186,7 @@ function learnMore(e) {
         overflow: "hidden"
     });
     let cardId = e.currentTarget.dataset.id;
-    let $element = '<div class="article-read">';
+    $element = '<div class="article-read">';
     $element += '<div class="article-read-inner">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
@@ -220,6 +224,7 @@ function learnMore(e) {
     }
     $("body").prepend(element);
     $(".article-read").fadeIn();
+    window.history.pushState('home', null, './');
     $(document).on("click", ".article-back .btn", function() {
         $(".article-read").fadeOut(function() {
             $(".article-read").remove();
@@ -229,6 +234,21 @@ function learnMore(e) {
         });
         return false;
     });
+    if(window.history.state == 'home') {
+        $(document).ready(function () {
+            if (window.history && window.history.pushState) {
+                $(window).on('popstate', function () {
+                    $(".article-read").fadeOut(function() {
+                        $(".article-read").remove();
+                        $("body").css({
+                            overflow: 'auto'
+                        });
+                    });
+                    return false;
+                });
+            }
+        });
+    }
 }
 
 
