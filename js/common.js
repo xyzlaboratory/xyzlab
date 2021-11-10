@@ -7,8 +7,10 @@ $(function() {
 			$(".main-loading").remove();
 		}
 	}
+
 	getPageList(loading);
-	$("body").easeScroll();
+
+	//$("body").easeScroll();
 
 	$("[data-bg]").each(function() {
 		let $this = $(this),
@@ -22,6 +24,8 @@ $(function() {
 		});
 		$this.prepend("<div class='overlay'></div>");
 	});
+
+
 
 	$(".smooth-link").click(function() {
 		let $this = $(this),

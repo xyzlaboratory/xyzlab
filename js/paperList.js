@@ -20,7 +20,6 @@ let paperList = [];
 let currentPaperList = [];
 
 function getPageList(loading){
-    console.log('测试')
     $.ajax({
         url: "mock/paperList.json",
         dataType: 'json',
@@ -196,13 +195,13 @@ function learnMore(e) {
     $element += '</div>';
     $element += '<div class="article-metas">';
     $element += '<div class="meta">';
-    $element += '	{date}';
-    $element += '</div>';
-    $element += '<div class="meta">';
     $element += '	{category}';
     $element += '</div>';
     $element += '<div class="meta">';
-    $element += '	<a href="{pdf}">pdf</a>';
+    $element += '	{date}';
+    $element += '</div>';
+    $element += '<div class="meta">';
+    $element += '	<a href="{pdf}">Project page</a>';
     $element += '</div>';
     $element += '</div>';
     $element += '<figure class="article-picture"><img src="{picture}"></figure>';
@@ -214,7 +213,6 @@ function learnMore(e) {
     $element += '</div>';
 
     let data = initPaperList[cardId];
-    console.log(data)
     let reg = /{([a-zA-Z0-9]+)}/g,
         element = $element;
     while(match = reg.exec($element)) {

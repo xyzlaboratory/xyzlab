@@ -7,8 +7,8 @@
     "content": "<p>This paper studies the composition in portrait paintings and develops an algorithm to improve the composition of portrait photographs based on example portrait paintings.A study of portrait paintings shows that the placement of the face and the figure is pose-related. Based on this observation,this paper develops an algorithm to improve the composition of a portrait photograph by learning the placement of the face and the figure from an example portrait painting. This example portrait painting is selected based on the similarity of its figure pose to that of the input photograph. This similarity measure is modeled as a graph matching problem. Finally,space cropping is performed using an optimization function to assign a similar location for each body part of the figure inthe photograph with that of the figure in the example portrait painting. The experimental results demonstrate the effectiveness of the proposed method. A user study shows that the proposed pose-based composition improvement is preferred more than rule-based methods and learning-based methods.</p >",
     "date": "MARCH 1, 2017",
     "author": "Xiaoyan Zhang, Member, IEEE, Zhuopeng Li, Martin Constable,Kap Luk Chan, Member, IEEE, Zhenhua Tang, and Gaoyang Tang",
-    "category": "IEEE",
-    "github": "无",
+    "category": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "github": "none",
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7952499"
   },
   {
@@ -20,7 +20,7 @@
     "date": "September 7, 2017",
     "author": "Yingying Zhu, Gaoyang Tang, Xiaoyan Zhang, Jianmin Jiang, Qi Tian",
     "category": "Neurocomputing",
-    "github": "无",
+    "github": "https://github.com/tygrer/F-LDCP",
     "pdf": "https://www.sciencedirect.com/science/article/pii/S0925231217314856"
   },
   {
@@ -32,7 +32,7 @@
     "date": "October 12, 2017",
     "author": "X Zhang，D Kim，S Shen，P Yuan，S Liu，Z Tang，G Zhang，X Zhou，J Gateno，Liebschner, Michael A. K",
     "category": "Biomechanics & Modeling in Mechanobiology",
-    "github": "无",
+    "github": "none",
     "pdf": "https://link.springer.com/content/pdf/10.1007/s10237-017-0967-6.pdf"
   },
   {
@@ -44,7 +44,7 @@
     "date": " February 3 ,2018",
     "author": "X Zhang，M Constable，KL Chan",
     "category": "Multimedia Tools and Applications",
-    "github": "无",
+    "github": "none",
     "pdf": "https://link.springer.com/content/pdf/10.1007%2Fs11042-018-5629-x.pdf"
   },
   {
@@ -55,8 +55,8 @@
     "content": "<p>In this paper, we propose a new end-to-end articulated structure-aware network to regress 3D joint coordinates from the given 2D joint detections. The proposed method is capable of dealing with hard joints well that usually fail existing methods. Specifically, our framework cascades a refinement network with a basic network for two types of joints, and employs a attention module to simulate a camera projection model. In addition, we propose to use a random enhancement module to intensify the constraints between joints. Experimental results on the Human3.6M and HumanEva databases demonstrate the effectiveness and flexibility of the proposed network, and errors of hard joints and bone lengths are significantly reduced, compared with state-of-the-art approaches.</p >",
     "date": "2019",
     "author": "Zhenhua Tang, Xiaoyan Zhang, Junhui Hou",
-    "category": "Proceedings of Machine Learning Research",
-    "github": "无",
+    "category": "Proceedings of The Eleventh Asian Conference on Machine Learning",
+    "github": "none",
     "pdf": "http://proceedings.mlr.press/v101/tang19a/tang19a.pdf"
   },
   {
@@ -68,7 +68,7 @@
     "date": "May 30, 2019",
     "author": "X Zhang，Z Tang，J Hou，Y Hao",
     "category": "Pattern Recognition Letters",
-    "github": "无",
+    "github": "none",
     "pdf": "https://www.sciencedirect.com/science/article/pii/S016786551830432X"
   },
   {
@@ -80,7 +80,7 @@
     "date": "September, 2019",
     "author": "刘远平，宋昱锴，张小燕，刘贤强",
     "category": "智能科学与技术学报",
-    "github": "无",
+    "github": "none",
     "pdf": "http://www.infocomm-journal.com/znkx/EN/10.11959/j.issn.2096-6652.201934"
   },
   {
@@ -92,7 +92,7 @@
     "date": " September 3 ,2019",
     "author": "Xiaoyan Zhang · Xiaole Zhang · Zhijiao Xiao",
     "category": "Multimedia Tools and Applications",
-    "github": "无",
+    "github": "none",
     "pdf": "https://link.springer.com/content/pdf/10.1007/s11042-019-08099-7.pdf"
   },
   {
@@ -103,8 +103,8 @@
     "content": "<p>This paper proposes a collaborative deep reinforcement learning model for automatic image cropping (called CDRL-IC). By modeling image cropping as a decision-making process of reinforcement learning, our model could generateoptimal cropping result in a few moving and zooming steps.An image with good composition is a comprehensive result by considering the relative importance of objects and also the spatial organization of visual elements. Therefore, emotion attention information which indicates the relationship and importance between objects is applied together with contextual information of color image for image cropping. In order to sufficiently use the emotion attention map and the color image, they are processed by two collaborative agents. The two agents make their primary learning separately and then share information through an information interaction module for making joint action prediction. In order to efficiently evaluate the cropping quality in the reward function, weighted Intersection Over Union (WIoU) is designed by integrating emotion attention map in the traditional IoU. Our CDRL-IC model is tested on a variety of datasets for both image cropping and thumbnail generation. The experiments show that our CDRL-IC model outperforms state of-the-art methods on these benchmark datasets.</p >",
     "date": " NOVEMBER,2019",
     "author": "Xiaoyan Zhang, Zhuopeng Li, Jianmin Jiang",
-    "category": "IEEE",
-    "github": "无",
+    "category": "IEEE Transactions on Multimedia",
+    "github": "none",
     "pdf": "http://ieeexplore.ieee.org/servlet/opac?punumber=6046l"
   },
   {
@@ -115,8 +115,8 @@
     "content": "<p>In order to help orthopedists evaluate the morphological characteristics of the acetabulum of patients with osteoarthritis of the hip more efficiently and accurately to identify the type of acetabular deformities which benefits the personalized preoperative planning, a 3-dimensional (3D) acetabular morphologic parameters measurements software dedicated to the hip was developed. The system includes four modules: 1) Identify the anterior pelvic plane (APP) of the pelvis model; 2) Identify the circular rim of the acetabular wall; 3) Automatically measure the 3D morphological parameters of the dysplastic acetabulum; 4) Interactively measure the 3D morphological parameters of the dysplastic acetabulum. The automatic parameter measurement function of this software could fast and accurately measure the 3D morphological parameters of the dysplastic acetabulum. These automatically measured parameters were close to those measured manually with error generally less than 2mm, and their average measurement time was nearly 10 times faster than that using the Mimics 17.0 system. For patients with large osteophyte, the 3D morphological parameters of the dysplastic acetabulum could be efficiently measured using the interactive measurement function of this software with simple operations. This software was used to measure acetabular morphological parameters in 61 patients. Two types of dysplastic acetabula were identified by the thickness of the medial wall on the lower margin of the acetabulum Tb: type I was a thin acetabulum (35 cases, Tb \\leqslant 10.0 mm) and type II was a thick acetabulum (26 cases, mm). According to the result of the acetabular morphological characteristic analysis, it can be found that the thickness of the medial wall is an important morphological characteristic for the THA preoperative surgical planning, and the thickened medial wall could be a misleading factor for the suboptimal placement of the cup.</p >",
     "date": "November 1, 2019",
     "author": "C Chen，P Wu，L Zheng，Y Liu，Y Song，X Zhang",
-    "category": "IEEE",
-    "github": "无",
+    "category": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "github": "none",
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8982957"
   },
   {
@@ -128,7 +128,7 @@
     "date": "13 April 2020",
     "author": "Xiaoyan Zhang, Haihua Luo, Bowei Chen & Guibing Guo ",
     "category": "Applied Intelligence",
-    "github": "无",
+    "github": "none",
     "pdf": "https://link.springer.com/content/pdf/10.1007/s10489-020-01703-6.pdf"
   },
   {
@@ -139,8 +139,8 @@
     "content": "<p>This paper proposes a practical style transfer method to synthesize a temporally smooth video whose style information is semantically consistent with the reference video. Due to the lack of paired videos for training, we extend the structure of CycleGAN with sparse patch and temporal constraints, including a new semantic patch loss and a novel temporal loss. Our approach’s key insights are: (1) the semantically paired sparse patches chosen from synthesized videos and reference frames would promote the semantic meaning of style transfer, the preservation of video content, and the smoothness of results by minimizing the discrepancies between these paired patches. (2) the forward and backward temporal consistency among neighbouring frames can reduce the discontinuity in the synthesized video. Extensive quantitative and qualitative experiments on various metrics demonstrate the superiority of our method over state-of-the-art strategies.</p >",
     "date": " 9 June, 2021",
     "author": "Yaxin Liu; Xiaoyan Zhang; Xiaogang Xu",
-    "category": "IEEE",
-    "github": "无",
+    "category": "IEEE International Conference on Multimedia and Expo",
+    "github": "none",
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9428352"
   },
   {
@@ -151,8 +151,8 @@
     "content": "<p>In this paper, we propose a portrait relighting method based on deep reinforcement learning (called PR-RL). Our PR-RL model could conduct portrait relighting by sequentially predicting local light editing strokes, and use strokes to conduct dodge and burn operations on the image lightness, simulating image editing by artists using brush strokes. Reinforcement learning with Deep Deterministic Policy Gradient is introduced to design our PR-RL model, defining the action (stroke parameters) in a continuous space, through which a reward can be designed to guide the agent to learn and relight a portrait image like an artist. To optimize the relighting effect, we further enable the reward to be location relevant and hence a coarse-to-fine strategy can be applied to select corresponding actions and maximize the performance of the proposed method. In comparison with the existing efforts, our proposed PR-RL method is locally effective, scale-invariant and interpretable. We apply the proposed method to tasks of portrait relighting based on both SH-lighting and reference images. The experiments show that our PR-RL method outperforms state-of-the-art methods in generating locally effective and interpretable high resolution relighting results for wild portrait images.</p >",
     "date": "14 July 2021",
     "author": "Xiaoyan Zhang; Yukai Song; Zhuopeng Li; Jianmin Jiang",
-    "category": "IEEE",
-    "github": "无",
+    "category": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "github": "none",
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9484089"
   }
 ]

@@ -1,7 +1,11 @@
-/*reset*/
+* {
+	touch-action: none;
+}/*reset*/
+
 html, body {
 	height: 100% !important;
 }
+
 
 .main-loading {
 	position: fixed;
@@ -152,6 +156,7 @@ html, body {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	z-index: 1;
+	background-color: #000 !important;
 }
 
 .navbar.main-navbar.bg-dark {
@@ -344,7 +349,15 @@ section.bg-overlay {
 }
 
 section.padding {
-	padding: 100px 0 100px 0;
+	padding: 80px 0 80px 0;
+}
+
+section.top_padding {
+	padding: 80px 0 0 0;
+}
+
+section.bottom_padding {
+	padding: 40px 0 80px 0;
 }
 
 section#blog {
@@ -453,7 +466,7 @@ article.card {
 }
 
 article.card .card-img-top {
-	height: 180px;
+	height: 190px;
 	object-fit: cover;
 }
 
