@@ -1,7 +1,3 @@
-* {
-	touch-action: none;
-}/*reset*/
-
 html, body {
 	height: 100% !important;
 }

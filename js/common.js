@@ -10,7 +10,7 @@ $(function() {
 
 	getPageList(loading);
 
-	$("body").easeScroll();
+	//$("body").easeScroll();
 
 	$("[data-bg]").each(function() {
 		let $this = $(this),
