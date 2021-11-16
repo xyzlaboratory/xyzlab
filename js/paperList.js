@@ -77,10 +77,10 @@ function showPage() {
     $.each(showPage,function(i,paper){
         let card = '<div class="col-12 col-md-6 col-lg-4">';
         card += '<article class="card">';
-        card += '<img class="card-img-top" src="'+paper.picture+'" alt="Article Image">';
+        card += '<img class="card-img-top" src="'+paper.images[0].image+'" alt="Article Image">';
         card += '<div class="card-body">';
         //card += '<div class="card-subtitle mb-2 text-muted"><a href="'+paper.github+'">GITHUB</a>&nbsp;&nbsp;<a href="'+paper.pdf+'">PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;'+paper.date+'</div>';
-        card += '<div class="card-subtitle mb-2 text-muted">'+paper.date+'</div>';
+        //card += '<div class="card-subtitle mb-2 text-muted">'+paper.year+'</div>';
         card += '<h4 class="card-title"><a href="javascript:void(0);" class="card-more" data-toggle="learnMore" data-id="'+paper.id+'">'+paper.title+'</a></h4>';
         card += '<p class="card-text">'+paper.brief+'</p>';
         card += '<div class="text-right">';
@@ -186,45 +186,63 @@ function learnMore(e) {
         overflow: "hidden"
     });
     let cardId = e.currentTarget.dataset.id;
+    let paper = initPaperList[cardId];
+    let images = paper.images;
     $element = '<div class="article-read">';
     $element += '<div class="article-read-inner">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
     $element += '</div>';
-    $element += '<h1 class="article-title">{title}</h1>';
+    $element += '<h1 class="article-title">'+paper.title+'</h1>';
+    $element += '<div class="article-metas">';
+    $element += '<div class="journal">';
+    $element += paper.journal;
+    $element += '</div>';
+    $element += '<div class="meta">';
+    $element += paper.year;
+    $element += '</div>';
+    $element += '<div class="meta">';
+    $element += '	<a href="'+paper.pdf+'">Project page</a>';
+    $element += '</div>';
+    $element += '</div>';
     $element += '<div class="article-metas">';
     $element += '<div class="meta">';
-    $element += '	{author}';
+    $element += paper.author;
     $element += '</div>';
     $element += '</div>';
     $element += '<div class="article-metas">';
     $element += '<div class="meta">';
-    $element += '	{category}';
-    $element += '</div>';
-    $element += '<div class="meta">';
-    $element += '	{date}';
-    $element += '</div>';
-    $element += '<div class="meta">';
-    $element += '	<a href="{pdf}">Project page</a>';
+    $element += paper.authorUnit;
     $element += '</div>';
     $element += '</div>';
-    $element += '<figure class="article-picture"><img src="{picture}"></figure>';
     $element += '<div class="article-content">';
+    $element += '<figure class="article-picture"><img src="'+images[0].image+'"></figure>';
+    $element += '<p>'+images[0].fig+'</p>';
     $element += '<h4>Abstract</h4>';
-    $element += '{content}';
+    $element += '<p>'+paper.abstract+'</p>';
+    for (var i=1;i<images.length;i++){
+        $element += '<div class="article-fig">';
+        $element += '<figure class="article-picture"><img src="'+images[i].image+'"></figure>';
+        $element += '<p>'+images[i].fig+'</p>';
+        $element += '</div>';
+    }
+    /*$element += '<h4>Bibtex</h4>';
+    $element += '<p>@article{'+'DronePath21'+',<br>';
+    $element += 'title={'+paper.title+'},<br>';
+    $element += 'author={'+paper.author+'},<br>';
+    $element += 'journal={'+paper.journal+'},<br>';
+    $element += 'volume={'+paper.volume+'},<br>';
+    $element += 'number={'+paper.number+'},<br>';
+    $element += 'pages={'+paper.pages+'},<br>';
+    $element += 'year={'+paper.year+'},<br>';
+    $element += '</p>';*/
     $element += '</div>';
     $element += '</div>';
     $element += '</div>';
 
-    let data = initPaperList[cardId];
-    let reg = /{([a-zA-Z0-9]+)}/g,
-        element = $element;
-    while(match = reg.exec($element)) {
-        element = element.replace('{' + match[1] + '}', data[match[1]]);
-    }
-    $("body").prepend(element);
+    $("body").prepend($element);
     $(".article-read").fadeIn();
-    window.history.pushState('home', null, './');
+    if(window.history.length == 0) window.history.pushState('home', null, './');
     $(document).on("click", ".article-back .btn", function() {
         $(".article-read").fadeOut(function() {
             $(".article-read").remove();

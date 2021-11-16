@@ -2,157 +2,435 @@
   {
     "id": 0,
     "title": "Pose-Based Composition Improvementfor Portrait Photographs",
-    "picture": "img/paper_img/0.png",
-    "brief": "<p>This paper studies the composition in portrait paintings and develops an algorithm to improve the composition of portrait photographs based on example portrait paintings.</p >",
-    "content": "<p>This paper studies the composition in portrait paintings and develops an algorithm to improve the composition of portrait photographs based on example portrait paintings.A study of portrait paintings shows that the placement of the face and the figure is pose-related. Based on this observation,this paper develops an algorithm to improve the composition of a portrait photograph by learning the placement of the face and the figure from an example portrait painting. This example portrait painting is selected based on the similarity of its figure pose to that of the input photograph. This similarity measure is modeled as a graph matching problem. Finally,space cropping is performed using an optimization function to assign a similar location for each body part of the figure inthe photograph with that of the figure in the example portrait painting. The experimental results demonstrate the effectiveness of the proposed method. A user study shows that the proposed pose-based composition improvement is preferred more than rule-based methods and learning-based methods.</p >",
-    "date": "MARCH 1, 2017",
-    "author": "Xiaoyan Zhang, Member, IEEE, Zhuopeng Li, Martin Constable,Kap Luk Chan, Member, IEEE, Zhenhua Tang, and Gaoyang Tang",
-    "category": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "authorUnit": "Shenzhen University",
+    "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "year": "2017",
+    "author": "Xiaoyan Zhang, Member, IEEE, Zhuopeng Li, Martin Constable,Kap Luk Chan, Member, IEEE, Zhenhua Tang, Gaoyang Tang",
+    "brief": "This paper studies the composition in portrait paintings and develops an algorithm to improve the composition of portrait photographs based on example portrait paintings.",
+    "abstract": "This paper studies the composition in portrait paintings and develops an algorithm to improve the composition of portrait photographs based on example portrait paintings.A study of portrait paintings shows that the placement of the face and the figure is pose-related. Based on this observation,this paper develops an algorithm to improve the composition of a portrait photograph by learning the placement of the face and the figure from an example portrait painting. This example portrait painting is selected based on the similarity of its figure pose to that of the input photograph. This similarity measure is modeled as a graph matching problem. Finally,space cropping is performed using an optimization function to assign a similar location for each body part of the figure inthe photograph with that of the figure in the example portrait painting. The experimental results demonstrate the effectiveness of the proposed method. A user study shows that the proposed pose-based composition improvement is preferred more than rule-based methods and learning-based methods.",
     "github": "none",
-    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7952499"
+    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7952499",
+    "images": [{
+      "image": "img/paper_img/00/Fig. 0.png",
+      "fig": "Fig. 0. Top: Photographs with extracted poses; Middle: Selected example paintings with extracted poses; Bottom: Cropping results based on selected example paintings."
+    },
+      {
+        "image": "img/paper_img/00/Fig. 1.png",
+        "fig": "Fig. 1. (a)-(c) Three paintings with different poses. The dark lines in the painting are the one-of-third lines and the white lines are the vertical and horizontal central lines. (d) The centers of faces and centers of the figure bodies in a set of 220 full-body paintings. The various placements of faces and figure bodies in paintings indicate that the aesthetics of the portrait is not simply rule-based. Faces are placed based on the pose of figures in the paintings."
+      },
+      {
+        "image": "img/paper_img/00/Fig. 2.png",
+        "fig": "Fig. 2. The framework of the proposed method. Given an input portrait photograph, the pose and face direction are extracted firstly. Apart from the pose and face direction, the location of the figure is also considered in the example painting selection. The location of the figure is defined by spaces around the figure. Because the pose and the location of the figure can be described as the relative relationships of body parts and body parts with the boundaries of the image, therefore, a graph can be used to model the relative relationships. After constructing the graph, the example painting is selected by searching the painting database based on a similarity measure for graph matching. Then, space cropping is performed by using an optimizing function."
+      },
+      {
+        "image": "img/paper_img/00/Fig. 5.png",
+        "fig": "Fig. 5. Top: Original estimated pose; Middle: Corrected pose; Bottom: Estimated pose soft map based on the constraints, obtained by convolving rectangles representing body parts with their corresponding posterior. The current research on pose retrieval generally indicates that the pose representation by particular location for each body part or particular angle between body parts is sensitive to the body part detection error. Soft coding of pose, which is to consider several likely alternative locations in constructing the pose representation, could improve the performance of the pose retrieval. Therefore, we propose to use the probability distributions over possible part positions and orientations for the pose retrieval. Based on the initially extracted pose, the user could interactively correct the failure detected body parts. Then, the probability distributions over possible alternative part positions and orientations are calculated based on the pose correction constraints. They are used for the selection of the example portrait painting based on the similarity of the poses."
+      },
+      {
+        "image": "img/paper_img/00/Fig. 6.png",
+        "fig": "Fig. 6. Illustration of cropping window, body part location, and space around the figure. Space cropping is used to assign a similar location for each body part of the photograph with that of the example painting by finding a cropping window (red window in Fig. 6). The space cropping is formulated as an optimization problem considering the location of each body part and the space around the figure."
+      },
+      {
+        "image": "img/paper_img/00/Fig. 16.png",
+        "fig": "Fig. 16. More experimental results. First row: Input photographs with pose, Second row: Selected example portrait paintings with pose, Third row: Cropping results using the proposed method. The experimental results and a user study show that the proposed method outperforms rule-based methods."
+      }
+    ]
   },
   {
     "id": 1,
     "title": "Haze removal method for natural restoration of images with sky",
-    "picture": "img/paper_img/1.png",
-    "brief": "<p>Most haze removal methods fail to restore long-shot images naturally, especially for the sky region. </p >",
-    "content": "<p>Most haze removal methods fail to restore long-shot images naturally, especially for the sky region. To solve this problem, we proposed a Fusion of Luminance and Dark Channel Prior (F-LDCP) method to effectively restore long-shot images with sky. The transmission values estimated based on a luminance model and dark channel prior model are fused together based on a soft segmentation. The transmission estimated from the luminance model mainly contributes to the sky region, while that from the dark channel prior for the foreground region. The airlight also is adjusted to adapt to real light by sky region detection. A user study and objective assessment comparison with a variety of methods on long-shot haze images demonstrate that our method retains visual truth and removes the haze effectively</p >",
-    "date": "September 7, 2017",
+    "authorUnit": "Shenzhen University",
+    "journal": "Neurocomputing",
+    "year": "2017",
     "author": "Yingying Zhu, Gaoyang Tang, Xiaoyan Zhang, Jianmin Jiang, Qi Tian",
-    "category": "Neurocomputing",
-    "github": "https://github.com/tygrer/F-LDCP",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S0925231217314856"
+    "brief": "Most haze removal methods fail to restore long-shot images naturally, especially for the sky region. ",
+    "abstract": "Most haze removal methods fail to restore long-shot images naturally, especially for the sky region. To solve this problem, we proposed a Fusion of Luminance and Dark Channel Prior (F-LDCP) method to effectively restore long-shot images with sky. The transmission values estimated based on a luminance model and dark channel prior model are fused together based on a soft segmentation. The transmission estimated from the luminance model mainly contributes to the sky region, while that from the dark channel prior for the foreground region. The airlight also is adjusted to adapt to real light by sky region detection. A user study and objective assessment comparison with a variety of methods on long-shot haze images demonstrate that our method retains visual truth and removes the haze effectively.",
+    "github": "none",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S0925231217314856",
+    "images": [{
+      "image": "img/paper_img/01/Fig. 1.png",
+      "fig": "Fig. 1. Flow chart of proposed transmission correction algorithm."
+    },
+      {
+        "image": "img/paper_img/01/Fig. 2.png",
+        "fig": "Fig. 2. Top: example haze-free images. Bottom: corresponding dark channel maps."
+      },
+      {
+        "image": "img/paper_img/01/Fig. 4.png",
+        "fig": "Fig. 4. (a) Original image. (c) Dark channel prior transmission. (d) Luminance transmission. (e) Transmission after fusing (c) and (d) using the transmission weight in (b).(f–h) Dehazed images derived by corresponding transmissions in (c)–(e)."
+      },
+      {
+        "image": "img/paper_img/01/Fig. 6.png",
+        "fig": "Fig. 6. The effect of Sigmoid curve in different images and transmission weight maps. (a) Input haze image (b) Dehazed image by F-LDCP method. (c) Sigmoid curveadaptively generated. (d) Transmission weight map."
+      },
+      {
+        "image": "img/paper_img/01/Fig. 8.png",
+        "fig": "Fig. 8. The comparison of dehazed results with luminance prior methods. (a) Original images (b) Results by Cai et al. [20]. (c) Results by Zhu et al. [21]. (d) Results by Darkchannel prior [1] (e) Our results."
+      },
+      {
+        "image": "img/paper_img/01/Fig. 17.png",
+        "fig": "Fig. 17. Dehazed result of an image without sky. (a) Input image. (b) Our result."
+      }
+    ]
   },
   {
     "id": 2,
     "title": "An eFTD-VP framework for efficiently generating patient-specific anatomically detailed facial soft tissue FE mesh for craniomaxillofacial surgery simulation",
-    "picture": "img/paper_img/2.png",
-    "brief": "<p>Accurate surgical planning and prediction of craniomaxillofacial surgery outcome requires simulation of soft tissue changes following osteotomy.</p >",
-    "content": "<p>Accurate surgical planning and prediction of craniomaxillofacial surgery outcome requires simulation of soft tissue changes following osteotomy. This can only be achieved by using an anatomically detailed facial soft tissue model. The current state-of-the-art of model generation is not appropriate to clinical applications due to the time-intensive nature of manual segmentation and volumetric mesh generation. The conventional patient-specific finite element (FE) mesh generation methods are to deform a template FE mesh to match the shape of a patient based on registration. However, these methods commonly produce element distortion. Additionally, the mesh density for patients depends on that of the template model. It could not be adjusted to conduct mesh density sensitivity analysis. In this study, we propose a new framework of patient-specific facial soft tissue FE mesh generation. The goal of the developed method is to efficiently generate a high-quality patient-specific hexahedral FE mesh with adjustable mesh density while preserving the accuracy in anatomical structure correspondence. Our FE mesh is generated by eFace template deformation followed by volumetric parametrization. First, the patient-specific anatomically detailed facial soft tissue model (including skin, mucosa, and muscles) is generated by deforming an eFace template model. The adaptation of the eFace template model is achieved by using a hybrid landmark-based morphing and dense surface fitting approach followed by a thin-plate spline interpolation. Then, high-quality hexahedral mesh is constructed by using volumetric parameterization. The user can control the resolution of hexahedron mesh to best reflect clinicians’ need. Our approach was validated using 30 patient models and 4 visible human datasets. The generated patient-specific FE mesh showed high surface matching accuracy, element quality, and internal structure matching accuracy. They can be directly and effectively used for clinical simulation of facial soft tissue change.</p >",
-    "date": "October 12, 2017",
+    "authorUnit": "Shenzhen University",
+    "journal": "Biomechanics & Modeling in Mechanobiology",
+    "year": "2017",
     "author": "X Zhang，D Kim，S Shen，P Yuan，S Liu，Z Tang，G Zhang，X Zhou，J Gateno，Liebschner, Michael A. K",
-    "category": "Biomechanics & Modeling in Mechanobiology",
+    "brief": "Accurate surgical planning and prediction of craniomaxillofacial surgery outcome requires simulation of soft tissue changes following osteotomy.",
+    "abstract": "Accurate surgical planning and prediction of craniomaxillofacial surgery outcome requires simulation of soft tissue changes following osteotomy. This can only be achieved by using an anatomically detailed facial soft tissue model. The current state-of-the-art of model generation is not appropriate to clinical applications due to the time-intensive nature of manual segmentation and volumetric mesh generation. The conventional patient-specific finite element (FE) mesh generation methods are to deform a template FE mesh to match the shape of a patient based on registration. However, these methods commonly produce element distortion. Additionally, the mesh density for patients depends on that of the template model. It could not be adjusted to conduct mesh density sensitivity analysis. In this study, we propose a new framework of patient-specific facial soft tissue FE mesh generation. The goal of the developed method is to efficiently generate a high-quality patient-specific hexahedral FE mesh with adjustable mesh density while preserving the accuracy in anatomical structure correspondence. Our FE mesh is generated by eFace template deformation followed by volumetric parametrization. First, the patient-specific anatomically detailed facial soft tissue model (including skin, mucosa, and muscles) is generated by deforming an eFace template model. The adaptation of the eFace template model is achieved by using a hybrid landmark-based morphing and dense surface fitting approach followed by a thin-plate spline interpolation. Then, high-quality hexahedral mesh is constructed by using volumetric parameterization. The user can control the resolution of hexahedron mesh to best reflect clinicians’ need. Our approach was validated using 30 patient models and 4 visible human datasets. The generated patient-specific FE mesh showed high surface matching accuracy, element quality, and internal structure matching accuracy. They can be directly and effectively used for clinical simulation of facial soft tissue change.",
     "github": "none",
-    "pdf": "https://link.springer.com/content/pdf/10.1007/s10237-017-0967-6.pdf"
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s10237-017-0967-6.pdf",
+    "images": [
+      {
+        "image": "img/paper_img/02/Fig. 1.png",
+        "fig": "Fig. 1. The eFace template model. a and b are the frontal and back views of the template facial soft tissue envelope. c The anatomical structure of the template model with highlighted musculature"
+      },
+      {
+        "image": "img/paper_img/02/Fig. 2.png",
+        "fig": "Fig. 2. Framework of the eFTD-VP approach"
+      },
+      {
+        "image": "img/paper_img/02/Fig. 3.png",
+        "fig": "Fig. 3. Framework of hexahedral mesh generation"
+      }
+    ,{
+        "image": "img/paper_img/02/Fig. 4.png",
+        "fig": "Fig. 4. Hexahedral meshes in three resolutions. Left: low resolution in 48×5×48 elements; middle: medium resolution in 78×8×78 elements; right: high resolution in 118×8×116 elements. The cutting plane in d crosses the middle of lower lip. In d, skin is in brown, mucosa is in yellow, and muscles are in red. a Hexahedral mesh in side view. b Close-up view of the mesh in the red box of a. c Hexahedral mesh in back view. d Cut view showing inner structure"
+      }
+    ,{
+        "image": "img/paper_img/02/Fig. 8.png",
+        "fig": "Fig. 8. Muscles of NLM-M. The name of each muscle is indicated in a. a Segmented ground truth muscles, b generated muscles from eFace template, c low resolution, d medium resolution, e high resolution"
+      }
+    ,{
+        "image": "img/paper_img/02/Fig. 11.png",
+        "fig": "Fig. 11. Segmented ground truth muscles for the four visible human datasets. a NLM-M, b NLM-F, c CVH3, d KVM"
+      }
+    ]
   },
   {
     "id": 3,
     "title": "Transfer of content-aware vignetting effect from paintings to photographs",
-    "picture": "img/paper_img/3.jpg",
-    "brief": "<p>This paper discusses how the vignetting effect of paintings may be transferred to photographs, with attention to center-corner contrast. First, the lightness distribution of both are analyzed. </p >",
-    "content": "<p>This paper discusses how the vignetting effect of paintings may be transferred to photographs, with attention to center-corner contrast. First, the lightness distribution of both are analyzed. The results show that the painter’s vignette is more complex than that achieved using common digital post-processing methods. It is shown to involve both the 2D and 3D geometry of the scene. Then, an algorithm is developed to transfer the vignetting effect from an example painting to a photograph. The example painting is selected as that has similar contextual geometry with the photograph. The lightness weighting pattern extracted from the selected example painting is adaptively blended with the input photograph to create vignetting effect. In order to avoid over-brightened or over-darkened regions in the enhancement result, the extracted lightness weighting pattern is corrected using a nonlinear curve. A content-aware interpolation method is also proposed to warp the lightness weighting to fit the contextual structure of the photograph. Finally, the local contrast is restored. Experiments show that the proposed algorithm can successfully perform this function. The resulting vignetting effect is more naturally presented with regard to esthetic composition as compared with vignetting achieved with popular software tools and camera models.</p >",
-    "date": " February 3 ,2018",
+    "authorUnit": "Shenzhen University",
+    "journal": "Multimedia Tools and Applications",
+    "year": "2018",
     "author": "X Zhang，M Constable，KL Chan",
-    "category": "Multimedia Tools and Applications",
+    "brief": "This paper discusses how the vignetting effect of paintings may be transferred to photographs, with attention to center-corner contrast. First, the lightness distribution of both are analyzed.",
+    "abstract": "This paper discusses how the vignetting effect of paintings may be transferred to photographs, with attention to center-corner contrast. First, the lightness distribution of both are analyzed. The results show that the painter’s vignette is more complex than that achieved using common digital post-processing methods. It is shown to involve both the 2D and 3D geometry of the scene. Then, an algorithm is developed to transfer the vignetting effect from an example painting to a photograph. The example painting is selected as that has similar contextual geometry with the photograph. The lightness weighting pattern extracted from the selected example painting is adaptively blended with the input photograph to create vignetting effect. In order to avoid over-brightened or over-darkened regions in the enhancement result, the extracted lightness weighting pattern is corrected using a nonlinear curve. A content-aware interpolation method is also proposed to warp the lightness weighting to fit the contextual structure of the photograph. Finally, the local contrast is restored. Experiments show that the proposed algorithm can successfully perform this function. The resulting vignetting effect is more naturally presented with regard to esthetic composition as compared with vignetting achieved with popular software tools and camera models.",
     "github": "none",
-    "pdf": "https://link.springer.com/content/pdf/10.1007%2Fs11042-018-5629-x.pdf"
+    "pdf": "https://link.springer.com/content/pdf/10.1007%2Fs11042-018-5629-x.pdf",
+    "images": [
+      {
+        "image": "img/paper_img/03/Fig. 1.png",
+        "fig": "Fig. 1. Photographs and paintings with vignetting effect. a Photograph with vignetting from [42]. b ‘Fanciful Landscape’, Thomas Doughty, 1834. c ‘Portrait of Anne, Countess of Chesterfield’, Thomas Gainsborough,c1778"   },
+      {
+        "image": "img/paper_img/03/Fig. 2.png",
+        "fig": "Fig. 2. Lightness distribution in landscape paintings and photographs. a The averaged and normalized lightness of 920 landscape paintings. b The averaged and normalized lightness of 920 landscape photographs. a and b are calculated by resizing all the paintings or photographs to the same size (600 × 800), then calculating the pixel-wise average of the lightness image, and finally normalized using Photoshop’s auto-contrast function. c and d are the plots of the average values of respectively 800 columns and 600 rows for the two average lightness images in (a) and (b)"  },
+      {
+        "image": "img/paper_img/03/Fig. 3.png",
+        "fig": "Fig. 3. The example painting and average lightness of all the landscape paintings in each of the three patterns.The average lightness images are calculated in the same way as those in Fig. 2. There are 209 paintings in left weighted pattern, 192 paintings in right weighted pattern, and 449 paintings in even weighted pattern"},
+      {
+        "image": "img/paper_img/03/Fig. 5.png",
+        "fig": "Fig. 5. The paintings in (b) and (d) are the top ranked paintings which are similar in the geometric structurewith the photographs in (a) and (c) respectively"},
+      {
+        "image": "img/paper_img/03/Fig. 9.png",
+        "fig": "Fig. 9. Local contrast restoration. a Result without local contrast restoration. b Close-up region in red box of (a). c Result with local contrast restoration. d Close-up region in red box of (c). More local details in the tree are presented after the local contrast restoration" },
+      {
+        "image": "img/paper_img/03/Fig. 16.png",
+        "fig": "Fig. 16. More experimental results by our proposed method. From left to right: input photographs, lightnessweighting, results"
+      }
+    ]
   },
   {
     "id": 4,
-    "title": "An Articulated Structure-aware Network for 3D HumanPose Estimation",
-    "picture": "img/paper_img/4.png",
-    "brief": "<p>In this paper, we propose a new end-to-end articulated structure-aware network to regress 3D joint coordinates from the given 2D joint detections.</p >",
-    "content": "<p>In this paper, we propose a new end-to-end articulated structure-aware network to regress 3D joint coordinates from the given 2D joint detections. The proposed method is capable of dealing with hard joints well that usually fail existing methods. Specifically, our framework cascades a refinement network with a basic network for two types of joints, and employs a attention module to simulate a camera projection model. In addition, we propose to use a random enhancement module to intensify the constraints between joints. Experimental results on the Human3.6M and HumanEva databases demonstrate the effectiveness and flexibility of the proposed network, and errors of hard joints and bone lengths are significantly reduced, compared with state-of-the-art approaches.</p >",
-    "date": "2019",
-    "author": "Zhenhua Tang, Xiaoyan Zhang, Junhui Hou",
-    "category": "Proceedings of The Eleventh Asian Conference on Machine Learning",
+    "title": "Deep photographic style transfer guided by semantic correspondence",
+    "authorUnit": "Shenzhen University",
+    "journal": "Multimedia Tools and Applications",
+    "year": "2019",
+    "author": "Xiaoyan Zhang, Xiaole Zhang, Zhijiao Xiao",
+    "brief": "The objective of this paper is to develop an effective photographic style transfer method while preserving the semantic correspondence between the style and content images for both scenery and portrait images.",
+    "abstract": "The objective of this paper is to develop an effective photographic style transfer method while preserving the semantic correspondence between the style and content images for both scenery and portrait images. A semantic correspondence guided photographic style transfer algorithm is developed, which is to ensure that the semantic structure of the content image has not been changed while the color of the style images is being migrated. The semantic correspondence is constructed in large scale regions based on image segmentation and also in local scale patches using Nearest-neighbor Field Search in the deep feature domain. Based on the semantic correspondence, a matting optimization is utilized to optimize the style transfer result to ensure the semantic accuracy and transfer faithfulness. The proposed style transfer method is further extended to automatically retrieve the style images from a database to make style transfer more-friendly. The experimental results show that our method could successfully conduct the style transfer while preserving semantic.",
     "github": "none",
-    "pdf": "http://proceedings.mlr.press/v101/tang19a/tang19a.pdf"
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s11042-019-08099-7.pdf",
+    "images": [ {
+      "image": "img/paper_img/04/Fig. 1.png",
+      "fig": "Fig. 1. Comparison of our method against other related methods. a Content images; b Style images; c The style transfer results produced by the deep image analogy method [14]; d The style transfer results produced by the deep photo style transfer method [21]; e The style transfer results of our method"
+    },
+      {
+        "image": "img/paper_img/04/Fig. 2.png",
+        "fig": "Fig. 2. Semantic correspondence network. A0 is the content image; B is the style image. FA0 and FB are the feature maps of A0, B respectively. A0-seg and B-seg are the segmentation images of A0, B respectively. FAl and F l B0 are the feature maps of the reconstructed result images. Φal →b is the the corresponding positionalrelationship of image A0 to image B, same as Φbl→a. RA and RB0 are the result images without weightedleast square (WLS) smoothing, A and B0 are the result images after WLS smoothing"
+      },
+      {
+        "image": "img/paper_img/04/Fig. 3.png",
+        "fig": "Fig. 3. Comparison the result images of different value of λ. a Content images; b Style images; c λ=100; d λ=10000; e λ=1000000"
+      },
+      {
+        "image": "img/paper_img/04/Fig. 5.png",
+        "fig": "Fig. 5. Similarity of the color histograms. The color histogram similarity of the specific regions is calculated in 30 random selected images. The color histogram similarity of all the regions is calculated in another group of 30 random selected images"
+      },
+      {
+        "image": "img/paper_img/04/Fig. 9.png",
+        "fig": "Fig. 9. Our method with automatic style image retrieval. Top: Content images; Mid: Style images; Bottom:result images"
+      },
+      {
+        "image": "img/paper_img/04/Fig. 10.png",
+        "fig": "Fig. 10. Comparison of the result of removing the segmentation constraint on a separate layer in NNF in the Semantic correspondence a Content image; b Style image; c The result generated by removing the segmentation constraint in layer conv4 1; d The results of all the layer with segmentation image constraint"
+      }
+    ]
   },
   {
     "id": 5,
-    "title": "3D human pose estimation via human structure-aware fully connected network ",
-    "picture": "img/paper_img/5.png",
-    "brief": "<p>Existing 3D human pose estimation (3D-HPE) methods focus on reducing the overall joint error, resulting in endpoints and bone lengths with large errors. </p >",
-    "content": "<p>Existing 3D human pose estimation (3D-HPE) methods focus on reducing the overall joint error, resulting in endpoints and bone lengths with large errors. To address this issue, we propose a human structure-aware network, which is capable of recovering 3D joint locations from given 2D joint detections. We cascade a refinement network with a basic network in a residual learning manner, meanwhile fuse the features from 2D and 3D coordinates by a residual connection. Specifically, our refinement network employs a dual-channel structure, in which the symmetrical endpoints are divided into two parts and refined separately. Such a structure is able to avoid the mutual interference of joints with large errors to promise reliable 3D features. Experimental results on the Human3.6M dataset demonstrate that our network reduces the errors of both endpoints and bone lengths compared with existing state-of-the-art approaches.</p >",
-    "date": "May 30, 2019",
+    "title": "3D human pose estimation via human structure-aware fully connected network",
+    "authorUnit": "Shenzhen University",
+    "journal": "Pattern Recognition Letters",
+    "year": "2019",
     "author": "X Zhang，Z Tang，J Hou，Y Hao",
-    "category": "Pattern Recognition Letters",
+    "brief": "Existing 3D human pose estimation (3D-HPE) methods focus on reducing the overall joint error, resulting in endpoints and bone lengths with large errors.",
+    "abstract": "Existing 3D human pose estimation (3D-HPE) methods focus on reducing the overall joint error, resulting in endpoints and bone lengths with large errors. To address this issue, we propose a human structure-aware network, which is capable of recovering 3D joint locations from given 2D joint detections. We cascade a refinement network with a basic network in a residual learning manner, meanwhile fuse the features from 2D and 3D coordinates by a residual connection. Specifically, our refinement network employs a dual-channel structure, in which the symmetrical endpoints are divided into two parts and refined separately. Such a structure is able to avoid the mutual interference of joints with large errors to promise reliable 3D features. Experimental results on the Human3.6M dataset demonstrate that our network reduces the errors of both endpoints and bone lengths compared with existing state-of-the-art approaches.",
     "github": "none",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S016786551830432X"
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S016786551830432X",
+    "images": [{
+      "image": "img/paper_img/05/Fig. 1.png",
+      "fig": "Fig. 1. Motion spaces of joints. The green dots in (a) and the red dots in (b) respectively represent the 3D coordinates of a non-hard joint (left shoulder) and a hard int (left wrist), in 1552 frames of action sequences. This figure clearly shows that the hard joints have very larger motion space than non-hard joints. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)"
+    },
+      {
+        "image": "img/paper_img/05/Fig. 2.png",
+        "fig": "Fig. 2. Overall architecture of the proposed model. The proposed network contains two subnetworks: (a) a basic one and (b) a refinement one. The basic network consists of multiple stacked fully connected layers, and the refinement network possesses a dual-channel structure. The blue solid line indicates a residual connection. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)"
+      },
+      {
+        "image": "img/paper_img/05/Fig. 3.png",
+        "fig": "Fig. 3. Single-channel refinement network. The single-channel refinement network finetune the hard joint locations by using two fully connected layers. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)"
+      },
+      {
+        "image": "img/paper_img/05/Fig. 4.png",
+        "fig": "Fig. 4. Joint groups. The whole human body is divided into A and B group. Each group contains 4 hard joints (i.e. elbow, hand, knee and foot on black bones) and 2 non-hard joints (i.e. shoulder, hip on blue bones) on the left and right sides respectively, and shares all the rest joints (i.e. head, neck/nose, spine and thorax on blue bones). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)"
+      },
+      {
+        "image": "img/paper_img/05/Fig. 6.png",
+        "fig": "Fig. 6. Examples of selected poses using Human3.6M dataset. The images from left to right in each triplet correspond to the given 2D pose (in a square), overlapping 3D pose pair of the proposed network, and overlapping 3D pose pair of the basic network, respectively. In each overlapping 3D pose pair, the one in red is the ground truth and the other in green is the prediction. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)"
+      }
+    ]
   },
   {
     "id": 6,
-    "title": "基于深度学习的髋关节应力分布算法研究",
-    "picture": "img/paper_img/6.png",
-    "brief": "<p>针对髋关节软骨的应力分布算法研究问题，设计了一个基于深度学习模型来代替有限元分析。</p >",
-    "content": "<p>针对髋关节软骨的应力分布算法研究问题，设计了一个基于深度学习模型来代替有限元分析。该深度学习模型分为无监督学习模块和有监督学习模块，首先使用无监督学习模块对髋关节的软骨和股骨进行形状编码；之后实现对应力分布数据的编码与解码，使得应力数据能够与神经网络相结合；然后通过监督学习，利用编码好的应力数据进行监督，使神经网络学习得到一个从髋关节软骨和股骨的形状码到应力分布的应力码的映射关系；最终得到一个拟合的深度学习模型。此模型能够在一定程度上模拟有限元分析方法，但是由于其平均绝对误差和归一化平均绝对误差比较大，所以还不能完全替代有限元分析方法。在此基础上，进一步探索了新模型在特征利用上的局限，并提出了改进的方向。</p >",
-    "date": "September, 2019",
-    "author": "刘远平，宋昱锴，张小燕，刘贤强",
-    "category": "智能科学与技术学报",
+    "title": "An Articulated Structure-aware Network for 3D HumanPose Estimation",
+    "authorUnit": "Shenzhen University",
+    "journal": "Proceedings of The Eleventh Asian Conference on Machine Learning",
+    "year": "2019",
+    "author": "Zhenhua Tang, Xiaoyan Zhang, Junhui Hou",
+    "brief": "In this paper, we propose a new end-to-end articulated structure-aware network to regress 3D joint coordinates from the given 2D joint detections.",
+    "abstract": "In this paper, we propose a new end-to-end articulated structure-aware network to regress 3D joint coordinates from the given 2D joint detections. The proposed method is capable of dealing with hard joints well that usually fail existing methods. Specifically, our framework cascades a refinement network with a basic network for two types of joints, and employs a attention module to simulate a camera projection model. In addition, we propose to use a random enhancement module to intensify the constraints between joints. Experimental results on the Human3.6M and HumanEva databases demonstrate the effectiveness and flexibility of the proposed network, and errors of hard joints and bone lengths are significantly reduced, compared with state-of-the-art approaches.",
     "github": "none",
-    "pdf": "http://www.infocomm-journal.com/znkx/EN/10.11959/j.issn.2096-6652.201934"
+    "pdf": "http://proceedings.mlr.press/v101/tang19a/tang19a.pdf",
+    "images": [{
+      "image": "img/paper_img/06/Fig. 1.png",
+      "fig": "Figure 1: Motion spaces of joints. The left image shows the motion locations of a hard joint (left wrist) in a video, while the right image shows the motion locations of a non-hard joint (left shoulder) in the same video. The length of the video is 27 seconds and it has in total of 1382 frames. Both the two screens in the images are the first frame of the video. std x is the standard deviation of joint coordinates in x-axis, while std y for the one in y-axis."
+    },{
+      "image": "img/paper_img/06/Fig. 2.png",
+      "fig": "Figure 2: Overall architecture of the proposed model. The proposed network contains three parts: (a) a basic network with the proposed REM, (b) a refinementnetwork and (c) the proposed AM."
+    },{
+      "image": "img/paper_img/06/Fig. 3.png",
+      "fig": "Figure 3: The architecture of the AM. (a) and (e) are the 2D features. (c) is the original 3D feature. (b), (d) and (g) indicate respectively the calculation of Eq.(6), Eq.(7) and Eq.(8). (f) represents the dot product operation. (h) is the final output feature."
+    },{
+      "image": "img/paper_img/06/Fig. 5.png",
+      "fig": "Figure 5: Detailed results of joints. (a) and (b) respectively indicate the errors (in mm) of hard joints and non-hard joints. The blue bars represent the joint errors of the basic network, and the red bars correspond to results of the proposed network. ’r’ represents the joints on the right of human body, and ’l’ represents the joints on the left of human body"
+    },{
+      "image": "img/paper_img/06/Fig. 7.png",
+      "fig": "Figure 7: Examples of selected poses using Human3.6M dataset. The images from left to right in each triplet correspond to the given 2D pose (in a image), the grondtruth of 3D pose and the predicted 3D poses of our network, respectively. In the 3D poses, green is for the left side of the human body and red is for the right."
+    }
+    ]
   },
   {
     "id": 7,
-    "title": "Deep photographic style transfer guided by semantic correspondence",
-    "picture": "img/paper_img/7.png",
-    "brief": "<p>The objective of this paper is to develop an effective photographic style transfer method while preserving the semantic correspondence between the style and content images for both scenery and portrait images.</p >",
-    "content": "<p>The objective of this paper is to develop an effective photographic style transfer method while preserving the semantic correspondence between the style and content images for both scenery and portrait images. A semantic correspondence guided photographic style transfer algorithm is developed, which is to ensure that the semantic structure of the content image has not been changed while the color of the style images is being migrated. The semantic correspondence is constructed in large scale regions based on image segmentation and also in local scale patches using Nearest-neighbor Field Search in the deep feature domain. Based on the semantic correspondence, a matting optimization is utilized to optimize the style transfer result to ensure the semantic accuracy and transfer faithfulness. The proposed style transfer method is further extended to automatically retrieve the style images from a database to make style transfer more-friendly. The experimental results show that our method could successfully conduct the style transfer while preserving semantic</p >",
-    "date": " September 3 ,2019",
-    "author": "Xiaoyan Zhang · Xiaole Zhang · Zhijiao Xiao",
-    "category": "Multimedia Tools and Applications",
+    "title": "基于深度学习的髋关节应力分布算法研究",
+    "authorUnit": "Shenzhen University",
+    "journal": "智能科学与技术学报",
+    "year": "2019",
+    "author": "刘远平，宋昱锴，张小燕，刘贤强",
+    "brief": "针对髋关节软骨的应力分布算法研究问题，设计了一个基于深度学习模型来代替有限元分析。",
+    "abstract": "针对髋关节软骨的应力分布算法研究问题，设计了一个基于深度学习模型来代替有限元分析。该深度学习模型分为无监督学习模块和有监督学习模块，首先使用无监督学习模块对髋关节的软骨和股骨进行形状编码；之后实现对应力分布数据的编码与解码，使得应力数据能够与神经网络相结合；然后通过监督学习，利用编码好的应力数据进行监督，使神经网络学习得到一个从髋关节软骨和股骨的形状码到应力分布的应力码的映射关系；最终得到一个拟合的深度学习模型。此模型能够在一定程度上模拟有限元分析方法，但是由于其平均绝对误差和归一化平均绝对误差比较大，所以还不能完全替代有限元分析方法。在此基础上，进一步探索了新模型在特征利用上的局限，并提出了改进的方向。",
     "github": "none",
-    "pdf": "https://link.springer.com/content/pdf/10.1007/s11042-019-08099-7.pdf"
+    "pdf": "http://www.infocomm-journal.com/znkx/EN/10.11959/j.issn.2096-6652.201934",
+    "images": [{
+      "image": "img/paper_img/07/Fig. 1.png",
+      "fig": "图 1 包含股骨、髋关节软骨和骨盆的解剖模型示意"
+    },{
+      "image": "img/paper_img/07/Fig. 2.png",
+      "fig": "图 2 软骨示意"
+    },{
+      "image": "img/paper_img/07/Fig. 3.png",
+      "fig": "图 3 股骨数据聚类示意"
+    },{
+      "image": "img/paper_img/07/Fig. 6.png",
+      "fig": "图 6 每 24 个点作为一段得到软骨形状分布"
+    },{
+      "image": "img/paper_img/07/Fig. 12.png",
+      "fig": "图 12 简化后的深度学习模型"
+    }
+    ]
   },
   {
     "id": 8,
-    "title": "Emotion Attention-Aware Collaborative Deep Reinforcement Learning for Image Cropping",
-    "picture": "img/paper_img/8.png",
-    "brief": "<p>This paper proposes a collaborative deep reinforcement learning model for automatic image cropping (called CDRL-IC).</p >",
-    "content": "<p>This paper proposes a collaborative deep reinforcement learning model for automatic image cropping (called CDRL-IC). By modeling image cropping as a decision-making process of reinforcement learning, our model could generateoptimal cropping result in a few moving and zooming steps.An image with good composition is a comprehensive result by considering the relative importance of objects and also the spatial organization of visual elements. Therefore, emotion attention information which indicates the relationship and importance between objects is applied together with contextual information of color image for image cropping. In order to sufficiently use the emotion attention map and the color image, they are processed by two collaborative agents. The two agents make their primary learning separately and then share information through an information interaction module for making joint action prediction. In order to efficiently evaluate the cropping quality in the reward function, weighted Intersection Over Union (WIoU) is designed by integrating emotion attention map in the traditional IoU. Our CDRL-IC model is tested on a variety of datasets for both image cropping and thumbnail generation. The experiments show that our CDRL-IC model outperforms state of-the-art methods on these benchmark datasets.</p >",
-    "date": " NOVEMBER,2019",
-    "author": "Xiaoyan Zhang, Zhuopeng Li, Jianmin Jiang",
-    "category": "IEEE Transactions on Multimedia",
+    "title": "A Modular Software System for 3D Measurement of Acetabulum in Arthritic Dysplasia Hips",
+    "authorUnit": "Shenzhen University",
+    "journal": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "year": "2019",
+    "author": "C Chen, P Wu, L Zheng, Y Liu, Y Song, X Zhang",
+    "brief": "In order to help orthopedists evaluate the morphological characteristics of the acetabulum of patients with osteoarthritis of the hip more efficiently and accurately to identify the type of acetabular deformities which benefits the personalized preoperative planning, a 3-dimensional (3D) acetabular morphologic parameters measurements software dedicated to the hip was developed.",
+    "abstract": "In order to help orthopedists evaluate the morphological characteristics of the acetabulum of patients with osteoarthritis of the hip more efficiently and accurately to identify the type of acetabular deformities which benefits the personalized preoperative planning, a 3-dimensional (3D) acetabular morphologic parameters measurements software dedicated to the hip was developed. The system includes four modules: 1) Identify the anterior pelvic plane (APP) of the pelvis model; 2) Identify the circular rim of the acetabular wall; 3) Automatically measure the 3D morphological parameters of the dysplastic acetabulum; 4) Interactively measure the 3D morphological parameters of the dysplastic acetabulum. The automatic parameter measurement function of this software could fast and accurately measure the 3D morphological parameters of the dysplastic acetabulum. These automatically measured parameters were close to those measured manually with error generally less than 2mm, and their average measurement time was nearly 10 times faster than that using the Mimics 17.0 system. For patients with large osteophyte, the 3D morphological parameters of the dysplastic acetabulum could be efficiently measured using the interactive measurement function of this software with simple operations. This software was used to measure acetabular morphological parameters in 61 patients. Two types of dysplastic acetabula were identified by the thickness of the medial wall on the lower margin of the acetabulum Tb: type I was a thin acetabulum (35 cases, Tb \\leqslant 10.0 mm) and type II was a thick acetabulum (26 cases, mm). According to the result of the acetabular morphological characteristic analysis, it can be found that the thickness of the medial wall is an important morphological characteristic for the THA preoperative surgical planning, and the thickened medial wall could be a misleading factor for the suboptimal placement of the cup.",
     "github": "none",
-    "pdf": "http://ieeexplore.ieee.org/servlet/opac?punumber=6046l"
+    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8982957",
+    "images": [{
+      "image": "img/paper_img/08/Fig. 1.png",
+      "fig": "Fig. 1. The user-interfaces of the software"
+    },{
+      "image": "img/paper_img/08/Fig. 2.png",
+      "fig": "Fig. 2.(a) The APP of the pelvis model. (b) The fitted circle of the acetabular wall.(c)-(f) Three coronal sections. (g)-(j)Three transaxial sections"
+    },{
+      "image": "img/paper_img/08/Fig. 3.png",
+      "fig": "Fig 3.(a) Thickness measurement in the coronal section.(b) Thickness measurement in the transaxial section"
+    },{
+      "image": "img/paper_img/08/Fig. 5.png",
+      "fig": "Fig. 5. Interactive thickness measurement between boundary curves. The curves in cyan are fitted based on the points in blue"
+    },{
+      "image": "img/paper_img/08/Fig. 8.png",
+      "fig": "Fig 8.(a) The distribution of the bone stock thickness at 0%0, 25%, 50%0, 75% and 100% heights of the acetabulum;(b) the bone stock thickness at 0%,25%50%.75% and 100% widths of the acetabulum"
+    }
+    ]
   },
   {
     "id": 9,
-    "title": "A Modular Software System for 3D Measurement of Acetabulum in Arthritic Dysplasia Hips",
-    "picture": "img/paper_img/9.png",
-    "brief": "<p>In order to help orthopedists evaluate the morphological characteristics of the acetabulum of patients with osteoarthritis of the hip more efficiently and accurately to identify the type of acetabular deformities which benefits the personalized preoperative planning, a 3-dimensional (3D) acetabular morphologic parameters measurements software dedicated to the hip was developed.</p >",
-    "content": "<p>In order to help orthopedists evaluate the morphological characteristics of the acetabulum of patients with osteoarthritis of the hip more efficiently and accurately to identify the type of acetabular deformities which benefits the personalized preoperative planning, a 3-dimensional (3D) acetabular morphologic parameters measurements software dedicated to the hip was developed. The system includes four modules: 1) Identify the anterior pelvic plane (APP) of the pelvis model; 2) Identify the circular rim of the acetabular wall; 3) Automatically measure the 3D morphological parameters of the dysplastic acetabulum; 4) Interactively measure the 3D morphological parameters of the dysplastic acetabulum. The automatic parameter measurement function of this software could fast and accurately measure the 3D morphological parameters of the dysplastic acetabulum. These automatically measured parameters were close to those measured manually with error generally less than 2mm, and their average measurement time was nearly 10 times faster than that using the Mimics 17.0 system. For patients with large osteophyte, the 3D morphological parameters of the dysplastic acetabulum could be efficiently measured using the interactive measurement function of this software with simple operations. This software was used to measure acetabular morphological parameters in 61 patients. Two types of dysplastic acetabula were identified by the thickness of the medial wall on the lower margin of the acetabulum Tb: type I was a thin acetabulum (35 cases, Tb \\leqslant 10.0 mm) and type II was a thick acetabulum (26 cases, mm). According to the result of the acetabular morphological characteristic analysis, it can be found that the thickness of the medial wall is an important morphological characteristic for the THA preoperative surgical planning, and the thickened medial wall could be a misleading factor for the suboptimal placement of the cup.</p >",
-    "date": "November 1, 2019",
-    "author": "C Chen，P Wu，L Zheng，Y Liu，Y Song，X Zhang",
-    "category": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "title": "Emotion Attention-Aware Collaborative Deep Reinforcement Learning for Image Cropping",
+    "authorUnit": "Shenzhen University",
+    "journal": "IEEE Transactions on Multimedia",
+    "year": "2019",
+    "author": "Xiaoyan Zhang, Zhuopeng Li, Jianmin Jiang",
+    "brief": "This paper proposes a collaborative deep reinforcement learning model for automatic image cropping (called CDRL-IC).",
+    "abstract": "This paper proposes a collaborative deep reinforcement learning model for automatic image cropping (called CDRL-IC). By modeling image cropping as a decision-making process of reinforcement learning, our model could generateoptimal cropping result in a few moving and zooming steps.An image with good composition is a comprehensive result by considering the relative importance of objects and also the spatial organization of visual elements. Therefore, emotion attention information which indicates the relationship and importance between objects is applied together with contextual information of color image for image cropping. In order to sufficiently use the emotion attention map and the color image, they are processed by two collaborative agents. The two agents make their primary learning separately and then share information through an information interaction module for making joint action prediction. In order to efficiently evaluate the cropping quality in the reward function, weighted Intersection Over Union (WIoU) is designed by integrating emotion attention map in the traditional IoU. Our CDRL-IC model is tested on a variety of datasets for both image cropping and thumbnail generation. The experiments show that our CDRL-IC model outperforms state of-the-art methods on these benchmark datasets.",
     "github": "none",
-    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8982957"
+    "pdf": "http://ieeexplore.ieee.org/servlet/opac?punumber=6046l",
+    "images": [{
+      "image": "img/paper_img/09/Fig. 1.png",
+      "fig": "fig. 1. Image cropping results by our CDRL-IC model. Blue bounding box is the cropping bounding box generated by our CDRL-IC model and red bounding box is the ground truth bounding box."
+    },
+      {
+        "image": "img/paper_img/09/Fig. 2.png",
+        "fig": "fig. 2. Framework of our CDRL-IC model. There are two agents in our CDRL-IC model, a color image agent and an emotion attention agent. The two agents have the same processing framework before joining an IIM. The state of each agent is composed by the global feature vglobal, feature of the cropping region vlocal and history actions. The full feature maps of the original image and the corresponding emotion attention map are extracted by the “conv5_3” layer in the pre-trained VGG16 model. A global average pooling [13] is applied on them to obtain the global feature vector vglobal. The local feature vector vlocal of the cropping region is extracted from the full feature map by utilizing a RoI pooling layer [14] and global average layer [13]. The concat of the global feature vector vglobal, the local feature vector vlocal, and history action vector forms a state and is passed to DDQN in each agent. The DDQN is constructed by two fully connected layers, a LSTM layer, and an action value prediction layer. The action value prediction results of the two agents are passed to the IIM for predicting the joint action. The agent gets a reward and repeats this process until the agent produces a “stop” signal (termination action)."
+      },
+      {
+        "image": "img/paper_img/09/Fig. 4.png",
+        "fig": "fig. 4. Illustration of WIoU. (a) The red bounding box is the ground truth cropping window and the blue bounding boxes are two candidate cropping windows. (b) describes the weight matrix of the ground truth window in low resolution for calculating the traditional IoU, where each pixel has the same weight. (c) describes the weight matrix of WIoU, where the weight of each pixel is defined by the emotion attention. (d) IoU values of the two candidate cropping windows. The two cropping windows have the same IoU values, but they obviously have different cropping quality. (e) WIoU values of the two candidate cropping windows. The WIoU values could distinguish their visual quality."
+      },
+      {
+        "image": "img/paper_img/09/Fig. 8.png",
+        "fig": "fig. 8. The cropping results of Color Image Agent (top), Emotion Attention Agent (middle), and our CDRL-IC model (bottom). The bounding box in red is the ground truth, and bounding box in blue is the predicted region."
+      },
+      {
+        "image": "img/paper_img/09/Fig. 11.png",
+        "fig": "fig. 11. Examples of the sequential actions selected by our CDRL-IC model. Blue bounding box is the cropping bounding box generated by our CDRL-IC model and red bounding box is the ground truth bounding box."
+      }
+    ]
   },
   {
     "id": 10,
     "title": "Multi-view visual Bayesian personalized ranking for restaurant recommendation",
-    "picture": "img/paper_img/10.png",
-    "brief": "<p>In recent recommendation systems, the image information of items is often used in conjunction with deep convolution network to directly learn the visual features of items. However, the existing approaches usually use only one image to represent an item. </p >",
-    "content": "<p>In recent recommendation systems, the image information of items is often used in conjunction with deep convolution network to directly learn the visual features of items. However, the existing approaches usually use only one image to represent an item. These approaches are inadequate for an item with multi-view related images. For a restaurant, it has visual information of food, drink, environment, and so on. Each view of an item can be represented by multiple images. In this paper, we propose a new factorization model that combines multi-view visual information with the implicit feedback data for restaurant prediction and ranking. The visual features (visual information) of images are extracted by using a deep convolution network and are integrated into a collaborative filtering framework. In order to conduct personalized recommendation better, the multi-view visual features are fused through user related weights. User related weights reflect the personalized visual preference for restaurants and the weights are different and independent between users. We applied this model to make personalized recommendations for users on two real-world restaurant review datasets. Experimental results show that our model with multi-view visual information achieves better performance than models without or with only single-view visual information.</p >",
-    "date": "13 April 2020",
-    "author": "Xiaoyan Zhang, Haihua Luo, Bowei Chen & Guibing Guo ",
-    "category": "Applied Intelligence",
+    "authorUnit": "Shenzhen University",
+    "journal": "Applied Intelligence",
+    "year": "2020",
+    "author": "Xiaoyan Zhang, Haihua Luo, Bowei Chen, Guibing Guo",
+    "brief": "In recent recommendation systems, the image information of items is often used in conjunction with deep convolution network to directly learn the visual features of items. However, the existing approaches usually use only one image to represent an item.",
+    "abstract": "In recent recommendation systems, the image information of items is often used in conjunction with deep convolution network to directly learn the visual features of items. However, the existing approaches usually use only one image to represent an item. These approaches are inadequate for an item with multi-view related images. For a restaurant, it has visual information of food, drink, environment, and so on. Each view of an item can be represented by multiple images. In this paper, we propose a new factorization model that combines multi-view visual information with the implicit feedback data for restaurant prediction and ranking. The visual features (visual information) of images are extracted by using a deep convolution network and are integrated into a collaborative filtering framework. In order to conduct personalized recommendation better, the multi-view visual features are fused through user related weights. User related weights reflect the personalized visual preference for restaurants and the weights are different and independent between users. We applied this model to make personalized recommendations for users on two real-world restaurant review datasets. Experimental results show that our model with multi-view visual information achieves better performance than models without or with only single-view visual information.",
     "github": "none",
-    "pdf": "https://link.springer.com/content/pdf/10.1007/s10489-020-01703-6.pdf"
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s10489-020-01703-6.pdf",
+    "images": [{
+      "image": "img/paper_img/10/Fig. 1.png",
+      "fig": "Fig. 1. An example of restaurant image information. a A variety of image categories, such as drink, food, inside, and outside. b Multiple images of different kinds of food in the restaurant"
+    },{
+      "image": "img/paper_img/10/Fig. 2.png",
+      "fig": "Fig. 2. Structure of MVBPR. Through the deep neural network, the visual feature of each restaurant are represented by a matrix of 4096 this visual feature matrix is reduced to a one-dimensional vector by the category visual weight. We model this category visual weight ( ×w4. Andu) forevery user"
+    },{
+      "image": "img/paper_img/10/Fig. 4.png",
+      "fig": "Fig. 4. Sensitivity experiments for visual factor K2. The setting of the super reference K2 has a significant impact on our model, so we test the evaluation AUC, HR@5 and NDCG@5 obtained by K2 at different scales (K2 = 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, respectively)"
+    },{
+      "image": "img/paper_img/10/Fig. 6.png",
+      "fig": "Fig. 6. Restaurant recommendation effect display. In this case, we randomly selected a user to generate a new restaurant recommendation list through the MVBPR model. And the raw data comes from the restaurant records he has been to, which is implicit feedback. The images above show some of the restaurants visited by the user. The following images are the Top-5 restaurant recommended to user"
+    },{
+      "image": "img/paper_img/10/Fig. 8.png",
+      "fig": "Fig. 8. The change of evaluation metrics and loss value of the model in 60 epochs. a Performance of our MVBPR model. b Change of model loss value"
+    }
+    ]
   },
   {
     "id": 11,
     "title": "SEMANTIC-AWARE VIDEO STYLE TRANSFER BASED ON TEMPORAL CONSISTENT SPARSE PATCH CONSTRAINT",
-    "picture": "img/paper_img/11.png",
-    "brief": "<p>This paper proposes a practical style transfer method to synthesize a temporally smooth video whose style information is semantically consistent with the reference video. </p >",
-    "content": "<p>This paper proposes a practical style transfer method to synthesize a temporally smooth video whose style information is semantically consistent with the reference video. Due to the lack of paired videos for training, we extend the structure of CycleGAN with sparse patch and temporal constraints, including a new semantic patch loss and a novel temporal loss. Our approach’s key insights are: (1) the semantically paired sparse patches chosen from synthesized videos and reference frames would promote the semantic meaning of style transfer, the preservation of video content, and the smoothness of results by minimizing the discrepancies between these paired patches. (2) the forward and backward temporal consistency among neighbouring frames can reduce the discontinuity in the synthesized video. Extensive quantitative and qualitative experiments on various metrics demonstrate the superiority of our method over state-of-the-art strategies.</p >",
-    "date": " 9 June, 2021",
+    "authorUnit": "Shenzhen University",
+    "journal": "IEEE International Conference on Multimedia and Expo",
+    "year": "2021",
     "author": "Yaxin Liu; Xiaoyan Zhang; Xiaogang Xu",
-    "category": "IEEE International Conference on Multimedia and Expo",
+    "brief": "This paper proposes a practical style transfer method to synthesize a temporally smooth video whose style information is semantically consistent with the reference video.",
+    "abstract": "This paper proposes a practical style transfer method to synthesize a temporally smooth video whose style information is semantically consistent with the reference video. Due to the lack of paired videos for training, we extend the structure of CycleGAN with sparse patch and temporal constraints, including a new semantic patch loss and a novel temporal loss. Our approach’s key insights are: (1) the semantically paired sparse patches chosen from synthesized videos and reference frames would promote the semantic meaning of style transfer, the preservation of video content, and the smoothness of results by minimizing the discrepancies between these paired patches. (2) the forward and backward temporal consistency among neighbouring frames can reduce the discontinuity in the synthesized video. Extensive quantitative and qualitative experiments on various metrics demonstrate the superiority of our method over state-of-the-art strategies.",
     "github": "none",
-    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9428352"
+    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9428352",
+    "images": [{
+      "image": "img/paper_img/11/Fig. 1.png",
+      "fig": "Fig. 1. The overview of our proposed approach. For simply, we only show the part of mapping from S to T. And the mappingfrom T to S could shown in a dual way. The transferred results are supervised by a GAN loss, a cycle loss, a semantic patch lossand a temporal loss. The key point of the semantic patch loss is to ensure the style of patches in the synthesized frame consistentwith the corresponding patches in the reference frame. For example, we can use blue and red square in Rito constrain the blueand red square in Ti. The details of semantic patch loss are further illustrated in Fig. 3."
+    },{
+      "image": "img/paper_img/11/Fig. 2.png",
+      "fig": "Fig. 2. Illustration of temporal consistent sparse patch constraint. The red patch in (d) is the corresponding patch of theblue patch in (a) as measured by PatchMatch[9]. The locationof blue patch in (c) is computed based on the location of the patch in (a) and the flow in (b). (e) is the color map of the flow direction in (b). (d) and (f) are the same frame."
+    },{
+      "image": "img/paper_img/11/Fig. 3.png",
+      "fig": "Fig. 3. The explanation of the semantic patch loss. Using the obtained sparse paired patches between source and reference frames, we can compute the distance between these patches."
+    },{
+      "image": "img/paper_img/11/Fig. 4.png",
+      "fig": "Fig. 4. The comparison on the artistic style transfer task with 4 methods. Obviously, compared with other approaches, our method could generate transfer results with higher accuracy, preserving the original content."
+    },{
+      "image": "img/paper_img/11/Fig. 5.png",
+      "fig": "Fig. 5. The comparison on the colorization task with 3 methods. Especially, see the highlighted blue and red regions, our method synthesizes frames with the highest style accuracy and image quality."
+    },{
+      "image": "img/paper_img/11/Fig. 6.png",
+      "fig": "Fig. 6. The comparison with consecutive frames. The highlighted three regions (red, yellow, blue) in our results are style consistent with the corresponding regions of the reference."
+    },{
+      "image": "img/paper_img/11/Fig. 7.png",
+      "fig": "Fig. 7. (a) and (b) shows the evaluation results on different patch size when the patch count is 600 and different patch counts when the patch size is 25, respectively.For the convenience of display, we have magnified the WARPE 1000 times."
+    }
+    ]
   },
   {
     "id": 12,
     "title": "PR-RL: Portrait Relighting via Deep Reinforcement Learning",
-    "picture": "img/paper_img/12.png",
-    "brief": "<p>In this paper, we propose a portrait relighting method based on deep reinforcement learning (called PR-RL). </p >",
-    "content": "<p>In this paper, we propose a portrait relighting method based on deep reinforcement learning (called PR-RL). Our PR-RL model could conduct portrait relighting by sequentially predicting local light editing strokes, and use strokes to conduct dodge and burn operations on the image lightness, simulating image editing by artists using brush strokes. Reinforcement learning with Deep Deterministic Policy Gradient is introduced to design our PR-RL model, defining the action (stroke parameters) in a continuous space, through which a reward can be designed to guide the agent to learn and relight a portrait image like an artist. To optimize the relighting effect, we further enable the reward to be location relevant and hence a coarse-to-fine strategy can be applied to select corresponding actions and maximize the performance of the proposed method. In comparison with the existing efforts, our proposed PR-RL method is locally effective, scale-invariant and interpretable. We apply the proposed method to tasks of portrait relighting based on both SH-lighting and reference images. The experiments show that our PR-RL method outperforms state-of-the-art methods in generating locally effective and interpretable high resolution relighting results for wild portrait images.</p >",
-    "date": "14 July 2021",
+    "authorUnit": "Shenzhen University",
+    "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "year": "2021",
     "author": "Xiaoyan Zhang; Yukai Song; Zhuopeng Li; Jianmin Jiang",
-    "category": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "brief": "In this paper, we propose a portrait relighting method based on deep reinforcement learning (called PR-RL).",
+    "abstract": "In this paper, we propose a portrait relighting method based on deep reinforcement learning (called PR-RL). Our PR-RL model could conduct portrait relighting by sequentially predicting local light editing strokes, and use strokes to conduct dodge and burn operations on the image lightness, simulating image editing by artists using brush strokes. Reinforcement learning with Deep Deterministic Policy Gradient is introduced to design our PR-RL model, defining the action (stroke parameters) in a continuous space, through which a reward can be designed to guide the agent to learn and relight a portrait image like an artist. To optimize the relighting effect, we further enable the reward to be location relevant and hence a coarse-to-fine strategy can be applied to select corresponding actions and maximize the performance of the proposed method. In comparison with the existing efforts, our proposed PR-RL method is locally effective, scale-invariant and interpretable. We apply the proposed method to tasks of portrait relighting based on both SH-lighting and reference images. The experiments show that our PR-RL method outperforms state-of-the-art methods in generating locally effective and interpretable high resolution relighting results for wild portrait images.",
     "github": "none",
-    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9484089"
+    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9484089",
+    "images": [{
+      "image": "img/paper_img/12/Fig. 1.png",
+      "fig": "Fig. 1. Results generated by our PR-RL method. The top two examples are relighting based on SH-lighting, the bottom two examples are relighting based on reference images."
+    },{
+      "image": "img/paper_img/12/Fig. 2.png",
+      "fig": "Fig. 2. Illustration of our proposed PR-RL framework, where the actor predicts actions according to the state, the stroke renderer generates the soft stroke based on parameters derived from the chosen actions, and the image is edited by using the stroke to conduct dodge or burn operation. Following that, we will get the next state and reward, which are then passed on to the critic for predicting the Q value for each action chosen by the actor."
+    },{
+      "image": "img/paper_img/12/Fig. 3.png",
+      "fig": "Fig. 3. Illustration of stroke designs"
+    },{
+      "image": "img/paper_img/12/Fig. 4.png",
+      "fig": "Fig. 4. Simulating soft stroke generation."
+    },{
+      "image": "img/paper_img/12/Fig. 5.png",
+      "fig": "Fig. 5. Illustration of the effect of dodge and burn. Left: dodge curve and effect in the image. Right: burn curve and effect in the image."
+    },{
+      "image": "img/paper_img/12/Fig. 10.png",
+      "fig": "Fig. 10. Comparative illustration of relighting effects between vanilla design of Huang et al. [34] and our proposed PR-RL method."
+    },{
+      "image": "img/paper_img/12/Fig. 14.png",
+      "fig": "Fig. 14. Illustration of comparative results generated by using hard stroke and soft stroke."
+    }
+    ]
   }
 ]
