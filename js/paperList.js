@@ -191,7 +191,7 @@ function learnMore(e) {
     let videos = paper.videos;
     $element = '<div class="article-read">';
     $element += '<div class="row">';
-    $element += '<div class="article-read-inner col-lg-8 col-md-10 col-sm-12 col-xs-12">';
+    $element += '<div class="article-read-inner col-lg-8 col-md-10 col-sm-10 col-xs-10">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
     $element += '</div>';
