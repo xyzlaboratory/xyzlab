@@ -19,8 +19,6 @@ let paperList = [];
 
 let currentPaperList = [];
 
-let $element
-
 let windowUrl = 'home'
 
 function getPageList(loading){
@@ -39,6 +37,7 @@ function getPageList(loading){
             pageCount = (paperList.length%pageSize>0)?(Math.ceil(paperList.length/pageSize)):(Math.floor(paperList.length/pageSize));
             currentPage = 1;
             currentPaperList = paperList;
+            showPageList();
             showPage();
             initPagination();
         }
@@ -72,6 +71,7 @@ function search() {
 }
 
 function showPage() {
+    if (paperList.length<=0) return
     let showPage = currentPaperList.slice((currentPage-1)*pageSize,currentPage*pageSize);
     $("#blogList").empty();
     $.each(showPage,function(i,paper){
@@ -91,6 +91,21 @@ function showPage() {
         card += '</div>';
         $("#blogList").append(card);
     });
+    getClick();
+}
+
+function showPageList() {
+    if (paperList.length<=0) return
+    let paperListShow = $("#paperList");
+    paperListShow.empty();
+    $.each(paperList,function(i,paper){
+        let row = '<div class="paper-list-row"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span><a href="javascript:void(0);" class="learn-more" data-toggle="learnMore" data-id="'+paper.id+'">'+paper.title+'</a></div>'
+        paperListShow.append(row);
+    });
+    getClick();
+}
+
+function getClick() {
     $("[data-toggle=learnMore]").click(function(e) {
         learnMore(e);
     })
@@ -189,7 +204,7 @@ function learnMore(e) {
     let paper = initPaperList[cardId];
     let images = paper.images;
     let videos = paper.videos;
-    $element = '<div class="article-read">';
+    let $element = '<div class="article-read">';
     $element += '<div class="article-read-inner">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
@@ -249,10 +264,8 @@ function learnMore(e) {
     $element += '</p>';*/
     $element += '</div>';
     $element += '</div>';
-
     $("body").prepend($element);
     $(".article-read").fadeIn();
-    if(window.history.length == 0) window.history.pushState('home', null, './');
     $(document).on("click", ".article-back .btn", function() {
         $(".article-read").fadeOut(function() {
             $(".article-read").remove();
@@ -262,21 +275,6 @@ function learnMore(e) {
         });
         return false;
     });
-    if(window.history.state == 'home') {
-        $(document).ready(function () {
-            if (window.history && window.history.pushState) {
-                $(window).on('popstate', function () {
-                    $(".article-read").fadeOut(function() {
-                        $(".article-read").remove();
-                        $("body").css({
-                            overflow: 'auto'
-                        });
-                    });
-                    return false;
-                });
-            }
-        });
-    }
 }
 
 

@@ -640,6 +640,20 @@ article.card .card-more i {
 	color: #999;
 }
 
+.paper-list-row {
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 5px 0 5px 10px;
+}
+
+.paper-list-row-learn {
+	text-transform: uppercase;
+	color: #000000;
+	display: inline-block;
+}
+
 /*contact*/
 form.contact .form-control {
 	margin-bottom: 5px;
