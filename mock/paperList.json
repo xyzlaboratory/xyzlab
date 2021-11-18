@@ -245,35 +245,6 @@
   },
   {
     "id": 7,
-    "title": "基于深度学习的髋关节应力分布算法研究",
-    "authorUnit": "Shenzhen University",
-    "journal": "智能科学与技术学报",
-    "year": "2019",
-    "author": "刘远平，宋昱锴，张小燕，刘贤强",
-    "brief": "针对髋关节软骨的应力分布算法研究问题，设计了一个基于深度学习模型来代替有限元分析。",
-    "abstract": "针对髋关节软骨的应力分布算法研究问题，设计了一个基于深度学习模型来代替有限元分析。该深度学习模型分为无监督学习模块和有监督学习模块，首先使用无监督学习模块对髋关节的软骨和股骨进行形状编码；之后实现对应力分布数据的编码与解码，使得应力数据能够与神经网络相结合；然后通过监督学习，利用编码好的应力数据进行监督，使神经网络学习得到一个从髋关节软骨和股骨的形状码到应力分布的应力码的映射关系；最终得到一个拟合的深度学习模型。此模型能够在一定程度上模拟有限元分析方法，但是由于其平均绝对误差和归一化平均绝对误差比较大，所以还不能完全替代有限元分析方法。在此基础上，进一步探索了新模型在特征利用上的局限，并提出了改进的方向。",
-    "github": "none",
-    "pdf": "http://www.infocomm-journal.com/znkx/EN/10.11959/j.issn.2096-6652.201934",
-    "images": [{
-      "image": "img/paper_img/07/Fig. 1.png",
-      "fig": "图 1 包含股骨、髋关节软骨和骨盆的解剖模型示意"
-    },{
-      "image": "img/paper_img/07/Fig. 2.png",
-      "fig": "图 2 软骨示意"
-    },{
-      "image": "img/paper_img/07/Fig. 3.png",
-      "fig": "图 3 股骨数据聚类示意"
-    },{
-      "image": "img/paper_img/07/Fig. 6.png",
-      "fig": "图 6 每 24 个点作为一段得到软骨形状分布"
-    },{
-      "image": "img/paper_img/07/Fig. 12.png",
-      "fig": "图 12 简化后的深度学习模型"
-    }
-    ]
-  },
-  {
-    "id": 8,
     "title": "A Modular Software System for 3D Measurement of Acetabulum in Arthritic Dysplasia Hips",
     "authorUnit": "Shenzhen University",
     "journal": "IEEE International Conference on Bioinformatics and Biomedicine",
@@ -302,7 +273,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Emotion Attention-Aware Collaborative Deep Reinforcement Learning for Image Cropping",
     "authorUnit": "Shenzhen University",
     "journal": "IEEE Transactions on Multimedia",
@@ -335,7 +306,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Multi-view visual Bayesian personalized ranking for restaurant recommendation",
     "authorUnit": "Shenzhen University",
     "journal": "Applied Intelligence",
@@ -364,7 +335,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "SEMANTIC-AWARE VIDEO STYLE TRANSFER BASED ON TEMPORAL CONSISTENT SPARSE PATCH CONSTRAINT",
     "authorUnit": "Shenzhen University",
     "journal": "IEEE International Conference on Multimedia and Expo",
@@ -399,7 +370,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "PR-RL: Portrait Relighting via Deep Reinforcement Learning",
     "authorUnit": "Shenzhen University",
     "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
