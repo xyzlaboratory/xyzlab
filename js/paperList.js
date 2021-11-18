@@ -190,8 +190,7 @@ function learnMore(e) {
     let images = paper.images;
     let videos = paper.videos;
     $element = '<div class="article-read">';
-    $element += '<div class="row">';
-    $element += '<div class="article-read-inner col-lg-8 col-md-10 col-sm-10 col-xs-10">';
+    $element += '<div class="article-read-inner">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
     $element += '</div>';
@@ -250,8 +249,6 @@ function learnMore(e) {
     $element += 'pages={'+paper.pages+'},<br>';
     $element += 'year={'+paper.year+'},<br>';
     $element += '</p>';*/
-    $element += '</div>';
-    $element += '</div>';
     $element += '</div>';
     $element += '</div>';
 

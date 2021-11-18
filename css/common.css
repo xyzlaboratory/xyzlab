@@ -82,6 +82,7 @@ html, body {
 	-ms-transform: translate(-50%, 0);
 	-o-transform: translate(-50%, 0);
 	padding: 50px 0 100px 0;
+	width: 60%;
 }
 
 .article-read .article-back {
@@ -804,6 +805,6 @@ footer i {
 
 @media screen and (max-width: 320px) {
 	.article-read .article-read-inner {
-		width: 80%;
+		width: 90%;
 	}
 }
