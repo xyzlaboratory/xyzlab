@@ -188,8 +188,10 @@ function learnMore(e) {
     let cardId = e.currentTarget.dataset.id;
     let paper = initPaperList[cardId];
     let images = paper.images;
+    let videos = paper.videos;
     $element = '<div class="article-read">';
-    $element += '<div class="article-read-inner">';
+    $element += '<div class="row">';
+    $element += '<div class="article-read-inner col-lg-8 col-md-10 col-sm-12 col-xs-12">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
     $element += '</div>';
@@ -222,9 +224,21 @@ function learnMore(e) {
     $element += '<p>'+paper.abstract+'</p>';
     for (var i=1;i<images.length;i++){
         $element += '<div class="article-fig">';
-        $element += '<figure class="article-picture"><img src="'+images[i].image+'"></figure>';
+        $element += '<figure class="article-picture"><img style="object-fit：" src="'+images[i].image+'"></figure>';
         $element += '<p>'+images[i].fig+'</p>';
         $element += '</div>';
+    }
+    if(videos != undefined && videos != null) {
+        for (var i=0;i<videos.length;i++){
+            console.log(videos[i].video)
+            $element += '<div class="article-fig">';
+            $element += '<figure class="article-picture"><video width="100%" controls>'
+            $element += '<source src="'+videos[i].video+'" type="video/mp4">';
+            $element += '您的浏览器不支持 HTML5 video！';
+            $element += '</video>';
+            $element += '<p>'+videos[i].fig+'</p>';
+            $element += '</div>';
+        }
     }
     /*$element += '<h4>Bibtex</h4>';
     $element += '<p>@article{'+'DronePath21'+',<br>';
@@ -236,6 +250,7 @@ function learnMore(e) {
     $element += 'pages={'+paper.pages+'},<br>';
     $element += 'year={'+paper.year+'},<br>';
     $element += '</p>';*/
+    $element += '</div>';
     $element += '</div>';
     $element += '</div>';
     $element += '</div>';

@@ -36,8 +36,8 @@
       }
     ],
     "videos": [{
-      "videos": "video/paper_video/00/01.mp4",
-      "fig": "介绍"
+      "video": "video/paper_video/00/01.mp4",
+      "fig": "video. 1. "
     }]
   },
   {
