@@ -80,7 +80,7 @@ function showPage() {
         card += '<img class="card-img-top" src="'+paper.images[0].image+'" alt="Article Image">';
         card += '<div class="card-body">';
         //card += '<div class="card-subtitle mb-2 text-muted"><a href="'+paper.github+'">GITHUB</a>&nbsp;&nbsp;<a href="'+paper.pdf+'">PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;'+paper.date+'</div>';
-        //card += '<div class="card-subtitle mb-2 text-muted">'+paper.year+'</div>';
+        card += '<div class="card-subtitle mb-2 text-muted">'+paper.journal+'</div>';
         card += '<h4 class="card-title"><a href="javascript:void(0);" class="card-more" data-toggle="learnMore" data-id="'+paper.id+'">'+paper.title+'</a></h4>';
         card += '<p class="card-text">'+paper.brief+'</p>';
         card += '<div class="text-right">';
@@ -202,9 +202,6 @@ function learnMore(e) {
     $element += '<div class="meta">';
     $element += paper.year;
     $element += '</div>';
-    $element += '<div class="meta">';
-    $element += '	<a href="'+paper.pdf+'">Project page</a>';
-    $element += '</div>';
     $element += '</div>';
     $element += '<div class="article-metas">';
     $element += '<div class="meta">';
@@ -239,6 +236,7 @@ function learnMore(e) {
             $element += '</div>';
         }
     }
+    $element += '<h5><a href="'+paper.pdf+'"><i class="icon-document"> Project page</a></h5>';
     /*$element += '<h4>Bibtex</h4>';
     $element += '<p>@article{'+'DronePath21'+',<br>';
     $element += 'title={'+paper.title+'},<br>';
