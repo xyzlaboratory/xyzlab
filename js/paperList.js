@@ -99,7 +99,7 @@ function showPageList() {
     let paperListShow = $("#paperList");
     paperListShow.empty();
     $.each(paperList,function(i,paper){
-        let row = '<div class="paper-list-row"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span><a href="javascript:void(0);" class="learn-more" data-toggle="learnMore" data-id="'+paper.id+'">'+paper.title+'</a></div>'
+        let row = '<div class="paper-list-row"><a href="javascript:void(0);" class="paper-list-row-learn" data-toggle="learnMore" data-id="'+paper.id+'"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</a></div>'
         paperListShow.append(row);
     });
     getClick();
@@ -207,7 +207,7 @@ function learnMore(e) {
     let $element = '<div class="article-read">';
     $element += '<div class="article-read-inner">';
     $element += '<div class="article-back">';
-    $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
+    $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Close</a>';
     $element += '</div>';
     $element += '<h1 class="article-title">'+paper.title+'</h1>';
     $element += '<div class="article-metas">';
@@ -251,7 +251,7 @@ function learnMore(e) {
             $element += '</div>';
         }
     }
-    $element += '<h5><a href="'+paper.pdf+'"><i class="icon-document"> Project page</a></h5>';
+    $element += '<p"><a href="'+paper.pdf+'"><i class="icon-document"> Project page</a></p>';
     /*$element += '<h4>Bibtex</h4>';
     $element += '<p>@article{'+'DronePath21'+',<br>';
     $element += 'title={'+paper.title+'},<br>';

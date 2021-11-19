@@ -642,14 +642,21 @@ article.card .card-more i {
 
 .paper-list-row {
 	font-weight: bold;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
 	margin: 5px 0 5px 10px;
 }
 
 .paper-list-row-learn {
-	text-transform: uppercase;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000000;
+	display: inline-block;
+}
+
+.paper-list-row-learn:hover{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	color: #000000;
 	display: inline-block;
 }
@@ -817,8 +824,53 @@ footer i {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1280px) {
 	.article-read .article-read-inner {
-		width: 90%;
+		width: 70%;
 	}
+}
+
+@media screen and (max-width: 480px) {
+	.article-read .article-read-inner {
+		width: 86%;
+	}
+}
+
+.scrollbar
+{
+	float: left;
+	height: 300px;
+	width: 100%;
+	background: #ffffff;
+	overflow-x: hidden;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+/*
+ *  STYLE 1
+ */
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(231, 231, 231, 0.3);
+	background-color: #e8e8e8;
 }
