@@ -19,7 +19,9 @@ let paperList = [];
 
 let currentPaperList = [];
 
-let windowUrl = 'home'
+let windowUrl = 'home';
+
+let learnMoreShow = false;
 
 function getPageList(loading){
     $.ajax({
@@ -204,7 +206,8 @@ function learnMore(e) {
     let paper = initPaperList[cardId];
     let images = paper.images;
     let videos = paper.videos;
-    let $element = '<div class="article-read">';
+
+    $element = '<div class="article-read">';
     $element += '<div class="article-read-inner">';
     $element += '<div class="article-back">';
     $element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Close</a>';
@@ -235,7 +238,7 @@ function learnMore(e) {
     $element += '<p>'+paper.abstract+'</p>';
     for (var i=1;i<images.length;i++){
         $element += '<div class="article-fig">';
-        $element += '<figure class="article-picture"><img style="object-fit：" src="'+images[i].image+'"></figure>';
+        $element += '<figure class="article-picture"><img src="'+images[i].image+'"></figure>';
         $element += '<p>'+images[i].fig+'</p>';
         $element += '</div>';
     }
@@ -265,18 +268,23 @@ function learnMore(e) {
     $element += '</div>';
     $element += '</div>';
     $("body").prepend($element);
+    learnMoreShow = true;
     $(".article-read").fadeIn();
     $(document).on("click", ".article-back .btn", function() {
-        $(".article-read").fadeOut(function() {
-            $(".article-read").remove();
-            $("body").css({
-                overflow: 'auto'
-            });
-        });
-        return false;
+        closeLearnMore()
     });
 }
 
+function closeLearnMore() {
+    $(".article-read").fadeOut(function() {
+        $(".article-read").remove();
+        $("body").css({
+            overflow: 'auto'
+        });
+    });
+    learnMoreShow = false;
+    return false;
+}
 
 
 

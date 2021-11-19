@@ -25,16 +25,26 @@ $(function() {
 		$this.prepend("<div class='overlay'></div>");
 	});
 
-
-
 	$(".smooth-link").click(function() {
 		let $this = $(this),
-				$target = $($this.attr("href"));
+			$target = $($this.attr("href"));
 		$("html, body").animate({
 			scrollTop: $target.offset().top - ($(".main-navbar").outerHeight() - 1)
 		});
 
 		return false;
+	});
+
+	$("#home-link").click(function() {
+		if(learnMoreShow == true) closeLearnMore();
+	});
+
+	$("#group-link").click(function() {
+		if(learnMoreShow == true) closeLearnMore();
+	});
+
+	$("#publication-link").click(function() {
+		if(learnMoreShow == true) closeLearnMore();
 	});
 
 	$(window).scroll(function() {
