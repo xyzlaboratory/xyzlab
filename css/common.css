@@ -842,8 +842,8 @@ footer i {
 	height: 300px;
 	width: 100%;
 	background: #ffffff;
-	overflow-x: hidden;
-	margin-bottom: 25px;
+	overflow: scroll;
+
 }
 
 .force-overflow
@@ -865,6 +865,7 @@ footer i {
 #style-1::-webkit-scrollbar
 {
 	width: 8px;
+	height: 8px;
 	background-color: #F5F5F5;
 }
 
