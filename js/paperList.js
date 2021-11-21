@@ -13,6 +13,8 @@ let pageSize = 9;
 //默认显示第一页
 let currentPage = 1;
 
+let allPaper = [];
+
 let initPaperList = [];
 
 let paperList = [];
@@ -24,6 +26,20 @@ let windowUrl = 'home';
 let learnMoreShow = false;
 
 function getPageList(loading){
+    $.ajax({
+        url: "mock/allPaperList.json",
+        dataType: 'json',
+        beforeSend: function() {
+            loading.show();
+        },
+        complete: function() {
+            loading.hide();
+        },
+        success: function(data) {
+            allPaper = data;
+            console.log(allPaper)
+        }
+    });
     $.ajax({
         url: "mock/paperList.json",
         dataType: 'json',
@@ -97,14 +113,14 @@ function showPage() {
 }
 
 function showPageList() {
-    if (paperList.length<=0) return
+    if (allPaper.length<=0) return
     let paperListShow = $("#paperList");
     paperListShow.empty();
-    $.each(paperList,function(i,paper){
-        let row = '<div class="paper-list-row"><a href="javascript:void(0);" class="paper-list-row-learn" data-toggle="learnMore" data-id="'+paper.id+'"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</a></div>'
+    $.each(allPaper,function(i,paper){
+        //let row = '<div class="paper-list-row"><a href="javascript:void(0);" class="paper-list-row-learn" data-toggle="learnMore" data-id="'+paper.id+'"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</a></div>'
+        let row = '<div class="paper-list-row"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</div>'
         paperListShow.append(row);
     });
-    getClick();
 }
 
 function getClick() {

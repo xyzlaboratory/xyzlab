@@ -1,0 +1,378 @@
+[
+  {
+    "id": 46,
+    "title": "Semantic-Aware Video Style Transfer Based On Temporal Consistent Sparse Patch Constraint",
+    "journal": "IEEE International Conference on Multimedia and Expo (ICME)",
+    "year": "2021",
+    "author": "Yaxin Liu, Xiaoyan Zhang*, Xiaogang Xu",
+    "pdf": ""
+  },
+  {
+    "id": 45,
+    "title": "Convolutional Attention Model For Restaurant Recommendation With Multi-View Visual Features",
+    "journal": "IEEE International Conference on Image Processing (ICIP)",
+    "year": "2021",
+    "author": "Haihua Luo, Xiaoyan Zhang*, Guibing Guo",
+    "pdf": ""
+  },
+  {
+    "id": 44,
+    "title": "Emotion Attention-Aware Collaborative Deep Reinforcement Learning for Image Cropping",
+    "journal": "IEEE Transactions on Multimedia",
+    "year": "2020",
+    "author": "Xiaoyan Zhang, Zhuopeng Li, Jianmin Jiang",
+    "pdf": ""
+  },
+  {
+    "id": 43,
+    "title": "Multi-view Visual Bayesian Personalized Ranking for Restaurant Recommendation",
+    "journal": "Applied Intelligence",
+    "year": "2020",
+    "author": "Xiaoyan Zhang, Haihua Luo, Bowei Chen, and Guibing Guo",
+    "pdf": ""
+  },
+  {
+    "id": 42,
+    "title": "Pose-based Composition Improvement for Portrait Photographs",
+    "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "year": "2019",
+    "author": "Xiaoyan Zhang, Zhuopeng Li, Martin Constable, Kap Luk Chan, Zhenhua Tang, and Gaoyang Tang",
+    "pdf": ""
+  },
+  {
+    "id": 41,
+    "title": "Deep Photographic Style Transfer Guided by Semantic Correspondence",
+    "journal": "Multimedia Tools and Applications",
+    "year": "2019",
+    "author": "Xiaoyan Zhang，Xiaole Zhang，and Zhijiao Xiao",
+    "pdf": ""
+  },
+  {
+    "id": 40,
+    "title": "3D Human Pose Estimation via Human Structure-aware Fully Connected Network",
+    "journal": "Pattern Recognition Letters",
+    "year": "2019",
+    "author": "Xiaoyan Zhang, Zhenhua Tang, Junhui Hou, and Yanbin Hao",
+    "pdf": ""
+  },
+  {
+    "id": 39,
+    "title": "Gaussian Weighted Deep Modeling for Improved Depth Estimation in Monocular Images",
+    "journal": "IEEE access",
+    "year": "2019",
+    "author": "Jianmin Jiang, Ehab H. El-Shazly, and Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 38,
+    "title": "Collaborative Deep Reinforcement Learning for Photo Composition",
+    "journal": "IEEE International Conference on Multimedia and Expo (ICME)",
+    "year": "2019",
+    "author": "Zhuopeng Li, and Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 37,
+    "title": "Deep Reinforcement Learning for Automatic Thumbnail Generation",
+    "journal": "International Conference on Multimedia Modeling (MMM)",
+    "year": "2019",
+    "author": "Zhuopeng Li, and Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 36,
+    "title": "An Articulated Structure-aware Network for 3D Human Pose Estimation",
+    "journal": "Asia Conference on Machine Learning (ACML)",
+    "year": "2019",
+    "author": "Zhenhua Tang, Xiaoyan Zhang*, and Junhui Hou",
+    "pdf": ""
+  },
+  {
+    "id": 35,
+    "title": "A Modular Software System for 3D Measurement of Acetabulum in Arthritic Dysplasia Hips",
+    "journal": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "year": "2019",
+    "author": "Chulan Chen, Peihui Wu, Linli Zheng, Yuanping Liu, Xiaoyan Zhang*, and Yukai Song",
+    "pdf": ""
+  },
+  {
+    "id": 34,
+    "title": "Motion Capture based Dynamic Assessment of Hip Joint Cartilage Contact Pressure during Daily Activities",
+    "journal": "International Conference on Bioinformatics and Biomedical Technology (ICBBT)",
+    "year": "2019",
+    "author": "Xianqiang Liu, Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 33,
+    "title": "Leveraging Title-Abstract Attentive Semantics for Paper Recommendation",
+    "journal": "The Association for the Advance of Artificial Intelligence (AAAI)",
+    "year": "2019",
+    "author": "Guibing Guo, Bowei Chen, Xiaoyan Zhang, Zhirong Liu, Zhenhua Dong, and Xiuqiang He",
+    "pdf": ""
+  },
+  {
+    "id": 32,
+    "title": "Semantic Prior Guided Face Inpainting",
+    "journal": "ACM Multimedia Asia Conference (MM Asia)",
+    "year": "2019",
+    "author": "Zeyang Zhang, Xiaobo Zhou, Shengjie Zhao, and Xiaoyan Zhang",
+    "pdf": ""
+  },
+  {
+    "id": 31,
+    "title": "Transfer of Content-aware Vignetting Effect from Paintings to Photographs",
+    "journal": "Multimedia Tools and Applications",
+    "year": "2018",
+    "author": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan",
+    "pdf": ""
+  },
+  {
+    "id": 30,
+    "title": "Dynamic Assessment of Contact Pressure Changes in the Hip Joint Cartialge during Daily Activities",
+    "journal": "International Conference on Systems and Informatics (CSI)",
+    "year": "2018",
+    "author": "Xianqiang Liu, Xiaoyan Zhang*, Shenghua Zhong, and Jianmin Jiang",
+    "pdf": ""
+  },
+  {
+    "id": 29,
+    "title": "Semantic Correspondence Guided Deep Photo Style Transfer",
+    "journal": "The Pacific-Rim Conference on Multimedia (PCM)",
+    "year": "2018",
+    "author": "Zhijiao Xiao, Xiaole Zhang, and Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 28,
+    "title": "Computational Approaches in the Transfer of Aesthetic Values from Paintings to Photographs: Beyond Red, Green and Blue",
+    "journal": "Springer",
+    "year": "2017",
+    "author": "Xiaoyan Zhang, Martin Constable, Kap Luk Chan, et al",
+    "pdf": ""
+  },
+  {
+    "id": 27,
+    "title": "An eFTD-VP framework for efficiently generating patient-specific anatomically detailed facial soft tissue FE mesh for craniomaxillofacial surgery simulation",
+    "journal": "Biomechanics and Modeling in Mechanobiology",
+    "year": "2017",
+    "author": "Xiaoyan Zhang, Daeseung Kim, Shunyao Shen, et al.",
+    "pdf": ""
+  },
+  {
+    "id": 26,
+    "title": "Haze removal method for natural restoration of images with sky",
+    "journal": "Neurocomputing",
+    "year": "2017",
+    "author": "Yingying Zhu, Gaoyang Tang, Xiaoyan Zhang∗, Jianmin Jiang, Qi Tian",
+    "pdf": ""
+  },
+  {
+    "id": 25,
+    "title": "Automatic monitoring refractive index variations of transient solution during electrochemical reactions",
+    "journal": "Measurement",
+    "year": "2017",
+    "author": "Zhuopeng Li, and Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 24,
+    "title": "A Clinically Validated Simulation Method for Facial Soft Tissue Change Prediction Following Double-Jaw Orthognathic Surgery",
+    "journal": "Medical Physics",
+    "year": "2017",
+    "author": "Zhuopeng Li, and Xiaoyan Zhang*",
+    "pdf": ""
+  },
+  {
+    "id": 23,
+    "title": "Transfer of vignetting effect from paintings to photographs",
+    "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2017",
+    "author": "Xiaoyan Zhang, Martin Constable, Kap Luk Chan",
+    "pdf": ""
+  },
+  {
+    "id": 22,
+    "title": "Pose-based composition improvement for portrait photographs",
+    "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2017",
+    "author": "Xiaoyan Zhang, Kap Luk Chan, Martin Constable",
+    "pdf": ""
+  },
+  {
+    "id": 21,
+    "title": "Improved Rubin–Bodner model for the prediction of soft tissue deformations",
+    "journal": "Medical Engineering and Physics",
+    "year": "2016",
+    "author": "Guangming Zhang , James J. Xia, Michael Liebschner, Xiaoyan Zhang, Daeseung Kim, Xiaobo Zhou",
+    "pdf": ""
+  },
+  {
+    "id": 20,
+    "title": "An eFace-Template Method for Efficiently Generating Patient-Specific Anatomically-Detailed Facial Soft Tissue FE Models for Craniomaxillofacial Surgery Simulation",
+    "journal": "Annals of Biomedical Engineering",
+    "year": "2016",
+    "author": "Xiaoyan Zhang, Zhen Tang, et al",
+    "pdf": ""
+  },
+  {
+    "id": 19,
+    "title": "FEM Simulation with Realistic Sliding Effect to Improve Facial-Soft-Tissue-Change Prediction Accuracy for Orthognathic Surgery",
+    "journal": "International Conference on Medical Imaging and Virtual Reality",
+    "year": "2016",
+    "author": "Daeseung Kim, Huaming Mai, Chien-Ming Chang, Dennis Chun-Yu Ho, Xiaoyan Zhang, et al",
+    "pdf": ""
+  },
+  {
+    "id": 18,
+    "title": "Two-Stage Simulation Method to Improve Facial Soft Tissue Prediction Accuracy for Orthognathic Surgery",
+    "journal": "Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+    "year": "2016",
+    "author": "Daeseung Kim, Chien-Ming Chang, Dennis Chun-Yu Ho, Xiaoyan Zhang, et al",
+    "pdf": ""
+  },
+  {
+    "id": 17,
+    "title": "Simulink Comparison of Varying-Parameter Convergent-Differential Neural-Network and Gradient Neural Network for Solving Online Linear Time-Varying Equations",
+    "journal": "The 12th World Congress on Intelligent Control and Automation (WCICA)",
+    "year": "2016",
+    "author": "Zhijun Zhang, Siwei Li, and Xiaoyan Zhang",
+    "pdf": ""
+  },
+  {
+    "id": 16,
+    "title": "A New Neural-Dynamic Control Method of Position and Angular Stabilization for Autonomous Quadrotor UAVs",
+    "journal": "2016 IEEE World Congress on Computational Intelligence (WCCI)",
+    "year": "2016",
+    "author": "Zhijun Zhang, Jianli Yu, Yuanqing Li,Xiaoyan Zhang",
+    "pdf": ""
+  },
+  {
+    "id": 15,
+    "title": "Algorithm for planning a double-jaw orthognathic surgery using a computer-aided surgical simulation (CASS) protocol. Part 1: planning sequence",
+    "journal": "Journal of Oral and Maxillofacial Surgery",
+    "year": "2015",
+    "author": "James J. Xia, Jaime Gateno, J. F. Teichgraeber, P. Yuan, K.-C. Chen, J. Li,Xiaoyan Zhang,et al",
+    "pdf": ""
+  },
+  {
+    "id": 14,
+    "title": "A Definition of Global Hue Contrast in Artworks",
+    "journal": "Journal of International Colour Association",
+    "year": "2015",
+    "author": "Martin Constable, Junyan Wang, Kap Luk Chan, and Xiaoyan Zhang",
+    "pdf": ""
+  },
+  {
+    "id": 13,
+    "title": "Automated Three-Piece Digital Dental Articulation",
+    "journal": "Medical Image Computing and Computer-Assisted Intervention (MICCAI),Munich",
+    "year": "2015",
+    "author": "Jianfu Li, Flavio Ferraz, Shunyao Shen, Yi-Fang Lo,Xiaoyan Zhang, et al",
+    "pdf": ""
+  },
+  {
+    "id": 12,
+    "title": "Prediction of facial soft tissue deformations with improved rubin-bodner model after craniomaxillofacial (CMF) surgery",
+    "journal": "IEEE International Conference on Image Processing",
+    "year": "2015",
+    "author": "Guangming Zhang, James J. Xia, Xiaoyan Zhang, and Xiaobo Zhou",
+    "pdf": ""
+  },
+  {
+    "id": 11,
+    "title": "Atmospheric Perspective Contrast Enhancement of Landscape Photographs through Depth-aware Contrast Manipulation",
+    "journal": "IEEE Transactions on Multimedia",
+    "year": "2014",
+    "author": "Xiaoyan Zhang, Kap Luk Chan, and Martin Constable",
+    "pdf": ""
+  },
+  {
+    "id": 10,
+    "title": "Exemplar-based Portrait Photograph Enhancement as informed by Portrait Paintings",
+    "journal": "Computer Graphics Forum",
+    "year": "2014",
+    "author": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan",
+    "pdf": ""
+  },
+  {
+    "id": 9,
+    "title": "Direct observation of the diffusion layer during copper electrodeposition",
+    "journal": "Microelectronic Engineering",
+    "year": "2013",
+    "author": "Boyu Yuan, Wei Li, Xiaoyan Zhang et al",
+    "pdf": ""
+  },
+  {
+    "id": 8,
+    "title": "Example-Based Contrast Enhancement for Portrait Photograph",
+    "journal": "International Conference on Pattern Recognition (ICPR)",
+    "year": "2012",
+    "author": "Xiaoyan Zhang,Martin Constable, and Kap Luk Chan",
+    "pdf": ""
+  },
+  {
+    "id": 7,
+    "title": "Aesthetic Enhancement of Landscape Photographs as Informed by Paintings across Depth Layers",
+    "journal": "IEEE International Conference on Image Processing (ICIP)",
+    "year": "2011",
+    "author": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan",
+    "pdf": ""
+  },
+  {
+    "id": 6,
+    "title": "Depth-based Reference Portrait Painting Selection for Example-based Rendering",
+    "journal": "IEEE International Conference on Cybernetics and Intelligent Systems (CIS)",
+    "year": "2011",
+    "author": "Xiaoyan Zhang, Kap Luk Chan, and Martin Constable",
+    "pdf": ""
+  },
+  {
+    "id": 5,
+    "title": "On the Transfer of Painting Style to Photographic Images through Attention to Colour Contrast",
+    "journal": "The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT)",
+    "year": "2010",
+    "author": "Xiaoyan Zhang, Martin Constable, and Ying He",
+    "pdf": ""
+  },
+  {
+    "id": 4,
+    "title": "Depth-based Analyses of Landscape Paintings and Photographs According to Itten’s Contrasts",
+    "journal": "The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT)",
+    "year": "2010",
+    "author": "Xiaoyan Zhang, Martin Constable, and Ying He",
+    "pdf": ""
+  },
+  {
+    "id": 3,
+    "title": "Depth-based Analyses of Landscape Paintings and Photographs According to Itten’s Contrasts",
+    "journal": "The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT)",
+    "year": "2010",
+    "author": "Martin Constable, and Xiaoyan Zhang",
+    "pdf": ""
+  },
+  {
+    "id": 2,
+    "title": "Automatic Detection and Tracking of Maneuverable Birds",
+    "journal": "International Conference on Computational Intelligence and Security (CIS)",
+    "year": "2008",
+    "author": "Xiaoyan Zhang, Xiaojuan Wu, Xiaogang Wang et al",
+    "pdf": ""
+  },
+  {
+    "id": 1,
+    "title": "Birds’ Flap Frequency Measure Based on Automatic Detection and Tracking in Captured Videos",
+    "journal": "International Conference on Biomedical Engineering",
+    "year": "2008",
+    "author": "Xiaoyan Zhang,Xiaojuan Wu, Xin Zhou et al",
+    "pdf": ""
+  },
+  {
+    "id": 0,
+    "title": "The website Construction of Circuit Analysis Excellent Courses",
+    "journal": "Journal of Electrical & Electronic Education",
+    "year": "2007",
+    "author": "Xiaoyan Zhang, Xiaojuan Wu",
+    "pdf": ""
+  }
+]
