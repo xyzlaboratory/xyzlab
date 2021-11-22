@@ -117,8 +117,8 @@ function showPageList() {
     let paperListShow = $("#paperList");
     paperListShow.empty();
     $.each(allPaper,function(i,paper){
-        //let row = '<div class="paper-list-row"><a href="javascript:void(0);" class="paper-list-row-learn" data-toggle="learnMore" data-id="'+paper.id+'"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</a></div>'
-        let row = '<div class="paper-list-row"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</div>'
+        let row = '<div class="paper-list-row"><a class="paper-list-row-learn" href="'+paper.pdf+'"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</a></div>'
+        //let row = '<div class="paper-list-row"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</div>'
         paperListShow.append(row);
     });
 }
