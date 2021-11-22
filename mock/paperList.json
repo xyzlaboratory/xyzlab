@@ -91,27 +91,27 @@
     "images": [
       {
         "image": "img/paper_img/02/Fig. 1.png",
-        "fig": "Fig. 1. The eFace template model. a and b are the frontal and back views of the template facial soft tissue envelope. c The anatomical structure of the template model with highlighted musculature"
+        "fig": "Fig. 1. The eFace template model. a and b are the frontal and back views of the template facial soft tissue envelope. c The anatomical structure of the template model with highlighted musculature."
       },
       {
         "image": "img/paper_img/02/Fig. 2.png",
-        "fig": "Fig. 2. Framework of the eFTD-VP approach"
+        "fig": "Fig. 2. Framework of the eFTD-VP approach."
       },
       {
         "image": "img/paper_img/02/Fig. 3.png",
-        "fig": "Fig. 3. Framework of hexahedral mesh generation"
+        "fig": "Fig. 3. Framework of hexahedral mesh generation."
       }
     ,{
         "image": "img/paper_img/02/Fig. 4.png",
-        "fig": "Fig. 4. Hexahedral meshes in three resolutions. Left: low resolution in 48×5×48 elements; middle: medium resolution in 78×8×78 elements; right: high resolution in 118×8×116 elements. The cutting plane in d crosses the middle of lower lip. In d, skin is in brown, mucosa is in yellow, and muscles are in red. a Hexahedral mesh in side view. b Close-up view of the mesh in the red box of a. c Hexahedral mesh in back view. d Cut view showing inner structure"
+        "fig": "Fig. 4. Hexahedral meshes in three resolutions. Left: low resolution in 48×5×48 elements; middle: medium resolution in 78×8×78 elements; right: high resolution in 118×8×116 elements. The cutting plane in d crosses the middle of lower lip. In d, skin is in brown, mucosa is in yellow, and muscles are in red. a Hexahedral mesh in side view. b Close-up view of the mesh in the red box of a. c Hexahedral mesh in back view. d Cut view showing inner structure."
       }
     ,{
         "image": "img/paper_img/02/Fig. 8.png",
-        "fig": "Fig. 8. Muscles of NLM-M. The name of each muscle is indicated in a. a Segmented ground truth muscles, b generated muscles from eFace template, c low resolution, d medium resolution, e high resolution"
+        "fig": "Fig. 8. Muscles of NLM-M. The name of each muscle is indicated in a. a Segmented ground truth muscles, b generated muscles from eFace template, c low resolution, d medium resolution, e high resolution."
       }
     ,{
         "image": "img/paper_img/02/Fig. 11.png",
-        "fig": "Fig. 11. Segmented ground truth muscles for the four visible human datasets. a NLM-M, b NLM-F, c CVH3, d KVM"
+        "fig": "Fig. 11. Segmented ground truth muscles for the four visible human datasets. a NLM-M, b NLM-F, c CVH3, d KVM."
       }
     ]
   },
@@ -129,22 +129,22 @@
     "images": [
       {
         "image": "img/paper_img/03/Fig. 1.png",
-        "fig": "Fig. 1. Photographs and paintings with vignetting effect. a Photograph with vignetting from [42]. b ‘Fanciful Landscape’, Thomas Doughty, 1834. c ‘Portrait of Anne, Countess of Chesterfield’, Thomas Gainsborough,c1778"   },
+        "fig": "Fig. 1. Photographs and paintings with vignetting effect. a Photograph with vignetting from [42]. b ‘Fanciful Landscape’, Thomas Doughty, 1834. c ‘Portrait of Anne, Countess of Chesterfield’, Thomas Gainsborough,c1778."   },
       {
         "image": "img/paper_img/03/Fig. 2.png",
-        "fig": "Fig. 2. Lightness distribution in landscape paintings and photographs. a The averaged and normalized lightness of 920 landscape paintings. b The averaged and normalized lightness of 920 landscape photographs. a and b are calculated by resizing all the paintings or photographs to the same size (600 × 800), then calculating the pixel-wise average of the lightness image, and finally normalized using Photoshop’s auto-contrast function. c and d are the plots of the average values of respectively 800 columns and 600 rows for the two average lightness images in (a) and (b)"  },
+        "fig": "Fig. 2. Lightness distribution in landscape paintings and photographs. a The averaged and normalized lightness of 920 landscape paintings. b The averaged and normalized lightness of 920 landscape photographs. a and b are calculated by resizing all the paintings or photographs to the same size (600 × 800), then calculating the pixel-wise average of the lightness image, and finally normalized using Photoshop’s auto-contrast function. c and d are the plots of the average values of respectively 800 columns and 600 rows for the two average lightness images in (a) and (b)."  },
       {
         "image": "img/paper_img/03/Fig. 3.png",
-        "fig": "Fig. 3. The example painting and average lightness of all the landscape paintings in each of the three patterns.The average lightness images are calculated in the same way as those in Fig. 2. There are 209 paintings in left weighted pattern, 192 paintings in right weighted pattern, and 449 paintings in even weighted pattern"},
+        "fig": "Fig. 3. The example painting and average lightness of all the landscape paintings in each of the three patterns.The average lightness images are calculated in the same way as those in Fig. 2. There are 209 paintings in left weighted pattern, 192 paintings in right weighted pattern, and 449 paintings in even weighted pattern."},
       {
         "image": "img/paper_img/03/Fig. 5.png",
-        "fig": "Fig. 5. The paintings in (b) and (d) are the top ranked paintings which are similar in the geometric structurewith the photographs in (a) and (c) respectively"},
+        "fig": "Fig. 5. The paintings in (b) and (d) are the top ranked paintings which are similar in the geometric structurewith the photographs in (a) and (c) respectively."},
       {
         "image": "img/paper_img/03/Fig. 9.png",
-        "fig": "Fig. 9. Local contrast restoration. a Result without local contrast restoration. b Close-up region in red box of (a). c Result with local contrast restoration. d Close-up region in red box of (c). More local details in the tree are presented after the local contrast restoration" },
+        "fig": "Fig. 9. Local contrast restoration. a Result without local contrast restoration. b Close-up region in red box of (a). c Result with local contrast restoration. d Close-up region in red box of (c). More local details in the tree are presented after the local contrast restoration." },
       {
         "image": "img/paper_img/03/Fig. 16.png",
-        "fig": "Fig. 16. More experimental results by our proposed method. From left to right: input photographs, lightnessweighting, results"
+        "fig": "Fig. 16. More experimental results by our proposed method. From left to right: input photographs, lightnessweighting, results."
       }
     ]
   },
@@ -161,27 +161,27 @@
     "pdf": "https://link.springer.com/content/pdf/10.1007/s11042-019-08099-7.pdf",
     "images": [ {
       "image": "img/paper_img/04/Fig. 1.png",
-      "fig": "Fig. 1. Comparison of our method against other related methods. a Content images; b Style images; c The style transfer results produced by the deep image analogy method [14]; d The style transfer results produced by the deep photo style transfer method [21]; e The style transfer results of our method"
+      "fig": "Fig. 1. Comparison of our method against other related methods. a Content images; b Style images; c The style transfer results produced by the deep image analogy method [14]; d The style transfer results produced by the deep photo style transfer method [21]; e The style transfer results of our method."
     },
       {
         "image": "img/paper_img/04/Fig. 2.png",
-        "fig": "Fig. 2. Semantic correspondence network. A0 is the content image; B is the style image. FA0 and FB are the feature maps of A0, B respectively. A0-seg and B-seg are the segmentation images of A0, B respectively. FAl and F l B0 are the feature maps of the reconstructed result images. Φal →b is the the corresponding positionalrelationship of image A0 to image B, same as Φbl→a. RA and RB0 are the result images without weightedleast square (WLS) smoothing, A and B0 are the result images after WLS smoothing"
+        "fig": "Fig. 2. Semantic correspondence network. A0 is the content image; B is the style image. FA0 and FB are the feature maps of A0, B respectively. A0-seg and B-seg are the segmentation images of A0, B respectively. FAl and F l B0 are the feature maps of the reconstructed result images. Φal →b is the the corresponding positionalrelationship of image A0 to image B, same as Φbl→a. RA and RB0 are the result images without weightedleast square (WLS) smoothing, A and B0 are the result images after WLS smoothing."
       },
       {
         "image": "img/paper_img/04/Fig. 3.png",
-        "fig": "Fig. 3. Comparison the result images of different value of λ. a Content images; b Style images; c λ=100; d λ=10000; e λ=1000000"
+        "fig": "Fig. 3. Comparison the result images of different value of λ. a Content images; b Style images; c λ=100; d λ=10000; e λ=1000000."
       },
       {
         "image": "img/paper_img/04/Fig. 5.png",
-        "fig": "Fig. 5. Similarity of the color histograms. The color histogram similarity of the specific regions is calculated in 30 random selected images. The color histogram similarity of all the regions is calculated in another group of 30 random selected images"
+        "fig": "Fig. 5. Similarity of the color histograms. The color histogram similarity of the specific regions is calculated in 30 random selected images. The color histogram similarity of all the regions is calculated in another group of 30 random selected images."
       },
       {
         "image": "img/paper_img/04/Fig. 9.png",
-        "fig": "Fig. 9. Our method with automatic style image retrieval. Top: Content images; Mid: Style images; Bottom:result images"
+        "fig": "Fig. 9. Our method with automatic style image retrieval. Top: Content images; Mid: Style images; Bottom:result images."
       },
       {
         "image": "img/paper_img/04/Fig. 10.png",
-        "fig": "Fig. 10. Comparison of the result of removing the segmentation constraint on a separate layer in NNF in the Semantic correspondence a Content image; b Style image; c The result generated by removing the segmentation constraint in layer conv4 1; d The results of all the layer with segmentation image constraint"
+        "fig": "Fig. 10. Comparison of the result of removing the segmentation constraint on a separate layer in NNF in the Semantic correspondence a Content image; b Style image; c The result generated by removing the segmentation constraint in layer conv4 1; d The results of all the layer with segmentation image constraint."
       }
     ]
   },
@@ -240,7 +240,7 @@
       "fig": "Figure 3: The architecture of the AM. (a) and (e) are the 2D features. (c) is the original 3D feature. (b), (d) and (g) indicate respectively the calculation of Eq.(6), Eq.(7) and Eq.(8). (f) represents the dot product operation. (h) is the final output feature."
     },{
       "image": "img/paper_img/06/Fig. 5.png",
-      "fig": "Figure 5: Detailed results of joints. (a) and (b) respectively indicate the errors (in mm) of hard joints and non-hard joints. The blue bars represent the joint errors of the basic network, and the red bars correspond to results of the proposed network. ’r’ represents the joints on the right of human body, and ’l’ represents the joints on the left of human body"
+      "fig": "Figure 5: Detailed results of joints. (a) and (b) respectively indicate the errors (in mm) of hard joints and non-hard joints. The blue bars represent the joint errors of the basic network, and the red bars correspond to results of the proposed network. ’r’ represents the joints on the right of human body, and ’l’ represents the joints on the left of human body."
     },{
       "image": "img/paper_img/06/Fig. 7.png",
       "fig": "Figure 7: Examples of selected poses using Human3.6M dataset. The images from left to right in each triplet correspond to the given 2D pose (in a image), the grondtruth of 3D pose and the predicted 3D poses of our network, respectively. In the 3D poses, green is for the left side of the human body and red is for the right."
@@ -260,19 +260,19 @@
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8982957",
     "images": [{
       "image": "img/paper_img/07/Fig. 1.png",
-      "fig": "Fig. 1. The user-interfaces of the software"
+      "fig": "Fig. 1. The user-interfaces of the software."
     },{
       "image": "img/paper_img/07/Fig. 2.png",
-      "fig": "Fig. 2.(a) The APP of the pelvis model. (b) The fitted circle of the acetabular wall.(c)-(f) Three coronal sections. (g)-(j)Three transaxial sections"
+      "fig": "Fig. 2.(a) The APP of the pelvis model. (b) The fitted circle of the acetabular wall.(c)-(f) Three coronal sections. (g)-(j)Three transaxial sections."
     },{
       "image": "img/paper_img/07/Fig. 3.png",
-      "fig": "Fig 3.(a) Thickness measurement in the coronal section.(b) Thickness measurement in the transaxial section"
+      "fig": "Fig 3.(a) Thickness measurement in the coronal section.(b) Thickness measurement in the transaxial section."
     },{
       "image": "img/paper_img/07/Fig. 5.png",
-      "fig": "Fig. 5. Interactive thickness measurement between boundary curves. The curves in cyan are fitted based on the points in blue"
+      "fig": "Fig. 5. Interactive thickness measurement between boundary curves. The curves in cyan are fitted based on the points in blue."
     },{
       "image": "img/paper_img/07/Fig. 8.png",
-      "fig": "Fig 8.(a) The distribution of the bone stock thickness at 0%0, 25%, 50%0, 75% and 100% heights of the acetabulum;(b) the bone stock thickness at 0%,25%50%.75% and 100% widths of the acetabulum"
+      "fig": "Fig 8.(a) The distribution of the bone stock thickness at 0%0, 25%, 50%0, 75% and 100% heights of the acetabulum;(b) the bone stock thickness at 0%,25%50%.75% and 100% widths of the acetabulum."
     }
     ]
   },
@@ -322,19 +322,19 @@
     "pdf": "https://link.springer.com/content/pdf/10.1007/s10489-020-01703-6.pdf",
     "images": [{
       "image": "img/paper_img/09/Fig. 1.png",
-      "fig": "Fig. 1. An example of restaurant image information. a A variety of image categories, such as drink, food, inside, and outside. b Multiple images of different kinds of food in the restaurant"
+      "fig": "Fig. 1. An example of restaurant image information. a A variety of image categories, such as drink, food, inside, and outside. b Multiple images of different kinds of food in the restaurant."
     },{
       "image": "img/paper_img/09/Fig. 2.png",
-      "fig": "Fig. 2. Structure of MVBPR. Through the deep neural network, the visual feature of each restaurant are represented by a matrix of 4096 this visual feature matrix is reduced to a one-dimensional vector by the category visual weight. We model this category visual weight ( ×w4. Andu) forevery user"
+      "fig": "Fig. 2. Structure of MVBPR. Through the deep neural network, the visual feature of each restaurant are represented by a matrix of 4096 this visual feature matrix is reduced to a one-dimensional vector by the category visual weight. We model this category visual weight ( ×w4. Andu) forevery user."
     },{
       "image": "img/paper_img/09/Fig. 4.png",
-      "fig": "Fig. 4. Sensitivity experiments for visual factor K2. The setting of the super reference K2 has a significant impact on our model, so we test the evaluation AUC, HR@5 and NDCG@5 obtained by K2 at different scales (K2 = 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, respectively)"
+      "fig": "Fig. 4. Sensitivity experiments for visual factor K2. The setting of the super reference K2 has a significant impact on our model, so we test the evaluation AUC, HR@5 and NDCG@5 obtained by K2 at different scales (K2 = 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, respectively)."
     },{
       "image": "img/paper_img/09/Fig. 6.png",
-      "fig": "Fig. 6. Restaurant recommendation effect display. In this case, we randomly selected a user to generate a new restaurant recommendation list through the MVBPR model. And the raw data comes from the restaurant records he has been to, which is implicit feedback. The images above show some of the restaurants visited by the user. The following images are the Top-5 restaurant recommended to user"
+      "fig": "Fig. 6. Restaurant recommendation effect display. In this case, we randomly selected a user to generate a new restaurant recommendation list through the MVBPR model. And the raw data comes from the restaurant records he has been to, which is implicit feedback. The images above show some of the restaurants visited by the user. The following images are the Top-5 restaurant recommended to user."
     },{
       "image": "img/paper_img/09/Fig. 8.png",
-      "fig": "Fig. 8. The change of evaluation metrics and loss value of the model in 60 epochs. a Performance of our MVBPR model. b Change of model loss value"
+      "fig": "Fig. 8. The change of evaluation metrics and loss value of the model in 60 epochs. a Performance of our MVBPR model. b Change of model loss value."
     }
     ]
   },
@@ -392,7 +392,7 @@
       "fig": "Fig. 2. Illustration of our proposed PR-RL framework, where the actor predicts actions according to the state, the stroke renderer generates the soft stroke based on parameters derived from the chosen actions, and the image is edited by using the stroke to conduct dodge or burn operation. Following that, we will get the next state and reward, which are then passed on to the critic for predicting the Q value for each action chosen by the actor."
     },{
       "image": "img/paper_img/11/Fig. 3.png",
-      "fig": "Fig. 3. Illustration of stroke designs"
+      "fig": "Fig. 3. Illustration of stroke designs."
     },{
       "image": "img/paper_img/11/Fig. 4.png",
       "fig": "Fig. 4. Simulating soft stroke generation."

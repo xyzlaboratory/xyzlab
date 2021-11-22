@@ -82,7 +82,7 @@ html, body {
 	-ms-transform: translate(-50%, 0);
 	-o-transform: translate(-50%, 0);
 	padding: 100px 0 100px 0;
-	width: 60%;
+	width: 62%;
 }
 
 .article-read .article-back {
@@ -851,6 +851,11 @@ footer i {
 .force-overflow
 {
 	min-height: 450px;
+}
+
+.paperImg {
+	max-width: 100%;
+	min-width: 70%;
 }
 
 /*

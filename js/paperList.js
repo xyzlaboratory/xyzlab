@@ -248,13 +248,15 @@ function learnMore(e) {
     $element += '</div>';
     $element += '</div>';
     $element += '<div class="article-content">';
-    $element += '<figure class="article-picture"><img src="'+images[0].image+'"></figure>';
+    //$element += '<figure class="article-picture"><img src="'+images[0].image+'"></figure>';
+    $element += '<figure style="text-align: center"><img style="max-width: 100%;min-width: 60%" src="'+images[0].image+'"></figure>';
     $element += '<p>'+images[0].fig+'</p>';
     $element += '<h4>Abstract</h4>';
     $element += '<p>'+paper.abstract+'</p>';
     for (var i=1;i<images.length;i++){
         $element += '<div class="article-fig">';
-        $element += '<figure class="article-picture"><img src="'+images[i].image+'"></figure>';
+        //$element += '<figure class="article-picture"><img src="'+images[i].image+'"></figure>';
+        $element += '<figure style="text-align: center"><img class="paperImg" src="'+images[i].image+'"></figure>';
         $element += '<p>'+images[i].fig+'</p>';
         $element += '</div>';
     }
@@ -301,6 +303,5 @@ function closeLearnMore() {
     learnMoreShow = false;
     return false;
 }
-
 
 
