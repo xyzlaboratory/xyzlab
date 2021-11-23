@@ -118,6 +118,7 @@ html, body {
 	font-size: 40px;
 	font-weight: 700;
 	margin-bottom: 30px;
+	line-height:96%;
 }
 
 .article-read .article-metas {
