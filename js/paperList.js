@@ -37,7 +37,6 @@ function getPageList(loading){
         },
         success: function(data) {
             allPaper = data;
-            console.log(allPaper)
         }
     });
     $.ajax({
@@ -251,7 +250,6 @@ function learnMore(e) {
     }
     if(videos != undefined && videos != null) {
         for (var i=0;i<videos.length;i++){
-            console.log(videos[i].video)
             $element += '<div class="article-fig">';
             $element += '<figure class="article-picture"><video width="100%" controls>'
             $element += '<source src="'+videos[i].video+'" type="video/mp4">';
