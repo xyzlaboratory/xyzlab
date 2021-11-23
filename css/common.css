@@ -114,19 +114,26 @@ html, body {
 }
 
 .article-read .article-title {
-	font-size: 30px;
-	font-weight: 800;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
 
 .article-read .article-metas {
+	text-align: center;
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 5px;
+}
+
+.article-read .article-author {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
 .article-read .article-metas .journal {
-	float: left;
-	padding-right: 15px;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
