@@ -232,8 +232,8 @@ function learnMore(e) {
     $element += '</div>';
     $element += '<p class="article-title">'+paper.title+'</p>';
     $element += '<div class="article-author">';
-    $element += '<p>'+paper.author+'</p>';
-    $element += '<p>'+paper.authorUnit+'</p>';
+    $element += '<div>'+paper.author+'</div>';
+    $element += '<div>'+paper.authorUnit+'</div>';
     $element += '</div>';
     $element += '<div class="article-content">';
     //$element += '<figure class="article-picture"><img src="'+images[0].image+'"></figure>';
