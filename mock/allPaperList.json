@@ -5,7 +5,8 @@
     "journal": "IEEE Transactions on Multimedia",
     "year": "2021",
     "author": "Xiaoyan Zhang; Yukai Song; Zhuopeng Li; Jianmin Jiang",
-    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9484089"
+    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9484089",
+    "quote": "X. Zhang, Y. Song, Z. Li and J. Jiang, \"PR-RL:Portrait Relighting via Deep Reinforcement Learning,\" in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2021.3096009."
   },
   {
     "id": 46,
@@ -13,7 +14,8 @@
     "journal": "IEEE International Conference on Multimedia and Expo (ICME)",
     "year": "2021",
     "author": "Yaxin Liu, Xiaoyan Zhang*, Xiaogang Xu",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/9428352/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/9428352/",
+    "quote": "Yaxin Liu, Xiaoyan Zhang*, Xiaogang Xu, \"Semantic-Aware Video Style Transfer Based On Temporal Consistent Sparse Patch Constraint\", IEEE International Conference on Multimedia and Expo (ICME), 2021, oral, accepted."
   },
   {
     "id": 45,
@@ -21,7 +23,8 @@
     "journal": "IEEE International Conference on Image Processing (ICIP)",
     "year": "2021",
     "author": "Haihua Luo, Xiaoyan Zhang*, Guibing Guo",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/9190768/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/9190768/",
+    "quote": "Haihua Luo, Xiaoyan Zhang*, Guibing Guo, \"Convolutional Attention Model For Restaurant Recommendation With Multi-View Visual Features\", IEEE International Conference on Image Processing (ICIP), 2021."
   },
   {
     "id": 44,
@@ -29,7 +32,8 @@
     "journal": "IEEE Transactions on Multimedia",
     "year": "2020",
     "author": "Xiaoyan Zhang, Zhuopeng Li, Jianmin Jiang",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/9158370/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/9158370/",
+    "quote": "Xiaoyan Zhang, Zhuopeng Li, Jianmin Jiang, \"Emotion Attention-Aware Collaborative Deep Reinforcement Learning for Image Cropping\", IEEE Transactions on Multimedia, 2020,1-16."
   },
   {
     "id": 43,
@@ -37,7 +41,8 @@
     "journal": "Applied Intelligence",
     "year": "2020",
     "author": "Xiaoyan Zhang, Haihua Luo, Bowei Chen, and Guibing Guo",
-    "pdf": "https://link.springer.com/article/10.1007/s10489-020-01703-6"
+    "pdf": "https://link.springer.com/article/10.1007/s10489-020-01703-6",
+    "quote": "Xiaoyan Zhang, Haihua Luo, Bowei Chen, and Guibing Guo, \"Multi-view Visual Bayesian Personalized Ranking for Restaurant Recommendation\", Applied Intelligence, 2020, 1-24."
   },
   {
     "id": 42,
@@ -45,7 +50,8 @@
     "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
     "year": "2019",
     "author": "Xiaoyan Zhang, Zhuopeng Li, Martin Constable, Kap Luk Chan, Zhenhua Tang, and Gaoyang Tang",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/8319951/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/8319951/",
+    "quote": "Xiaoyan Zhang, Zhuopeng Li, Martin Constable, Kap Luk Chan, Zhenhua Tang, and Gaoyang Tang, \"Pose-based Composition Improvement for Portrait Photographs\", IEEE Transactions on Circuits and Systems for Video Technology, 2019，29(3):653-668."
   },
   {
     "id": 41,
@@ -53,7 +59,8 @@
     "journal": "Multimedia Tools and Applications",
     "year": "2019",
     "author": "Xiaoyan Zhang，Xiaole Zhang，and Zhijiao Xiao",
-    "pdf": "https://link.springer.com/article/10.1007/s11042-019-08099-7"
+    "pdf": "https://link.springer.com/article/10.1007/s11042-019-08099-7",
+    "quote": "Xiaoyan Zhang，Xiaole Zhang，and Zhijiao Xiao, \"Deep Photographic Style Transfer Guided by Semantic Correspondence\", Multimedia Tools and Applications, 2019, 78(24): 34649-34672."
   },
   {
     "id": 40,
@@ -61,7 +68,8 @@
     "journal": "Pattern Recognition Letters",
     "year": "2019",
     "author": "Xiaoyan Zhang, Zhenhua Tang, Junhui Hou, and Yanbin Hao",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S016786551830432X"
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S016786551830432X",
+    "quote": "Xiaoyan Zhang, Zhenhua Tang, Junhui Hou, and Yanbin Hao, \"3D Human Pose Estimation via Human Structure-aware Fully Connected Network\", Pattern Recognition Letters, 2019, 125:404–410."
   },
   {
     "id": 39,
@@ -69,7 +77,8 @@
     "journal": "IEEE access",
     "year": "2019",
     "author": "Jianmin Jiang, Ehab H. El-Shazly, and Xiaoyan Zhang*",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/8835086/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/8835086/",
+    "quote": "Jianmin Jiang, Ehab H. El-Shazly, and Xiaoyan Zhang*, \"Gaussian Weighted Deep Modeling for Improved Depth Estimation in Monocular Images\", IEEE access, 2019, 7:134718- 134729."
   },
   {
     "id": 38,
@@ -77,7 +86,8 @@
     "journal": "IEEE International Conference on Multimedia and Expo (ICME)",
     "year": "2019",
     "author": "Zhuopeng Li, and Xiaoyan Zhang*",
-    "pdf": "https://arxiv.org/abs/1702.05796"
+    "pdf": "https://arxiv.org/abs/1702.05796",
+    "quote": "Zhuopeng Li, and Xiaoyan Zhang*, \"Collaborative Deep Reinforcement Learning for Photo Composition\", IEEE International Conference on Multimedia and Expo (ICME), 2019, 254-259."
   },
   {
     "id": 37,
@@ -85,7 +95,8 @@
     "journal": "International Conference on Multimedia Modeling (MMM)",
     "year": "2019",
     "author": "Zhuopeng Li, and Xiaoyan Zhang*",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-05716-9_4"
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-05716-9_4",
+    "quote": "Zhuopeng Li, and Xiaoyan Zhang*, \"Deep Reinforcement Learning for Automatic Thumbnail Generation\", International Conference on Multimedia Modeling (MMM), 2019, 41-53."
   },
   {
     "id": 36,
@@ -93,7 +104,8 @@
     "journal": "Asia Conference on Machine Learning (ACML)",
     "year": "2019",
     "author": "Zhenhua Tang, Xiaoyan Zhang*, and Junhui Hou",
-    "pdf": "http://proceedings.mlr.press/v101/tang19a.html"
+    "pdf": "http://proceedings.mlr.press/v101/tang19a.html",
+    "quote": "Zhenhua Tang, Xiaoyan Zhang*, and Junhui Hou,\"An Articulated Structure-aware Network for 3D Human Pose Estimation\", Asia Conference on Machine Learning (ACML), 2019, 101:48-63."
   },
   {
     "id": 35,
@@ -101,7 +113,8 @@
     "journal": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
     "year": "2019",
     "author": "Chulan Chen, Peihui Wu, Linli Zheng, Yuanping Liu, Xiaoyan Zhang*, and Yukai Song",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/8982957/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/8982957/",
+    "quote": "Chulan Chen, Peihui Wu, Linli Zheng, Yuanping Liu, Xiaoyan Zhang*, and Yukai Song, \"A Modular Software System for 3D Measurement of Acetabulum in Arthritic Dysplasia Hips\", IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2019,1449-1456."
   },
   {
     "id": 34,
@@ -109,7 +122,8 @@
     "journal": "International Conference on Bioinformatics and Biomedical Technology (ICBBT)",
     "year": "2019",
     "author": "Xianqiang Liu, Xiaoyan Zhang*",
-    "pdf": "https://dl.acm.org/doi/abs/10.1145/3340074.3340090"
+    "pdf": "https://dl.acm.org/doi/abs/10.1145/3340074.3340090",
+    "quote": "Xianqiang Liu, Xiaoyan Zhang*, and Shenghua Zhong, \"Motion Capture based Dynamic Assessment of Hip Joint Cartilage Contact Pressure during Daily Activities\", International Conference on Bioinformatics and Biomedical Technology (ICBBT), 2019, 124-131."
   },
   {
     "id": 33,
@@ -117,7 +131,8 @@
     "journal": "The Association for the Advance of Artificial Intelligence (AAAI)",
     "year": "2019",
     "author": "Guibing Guo, Bowei Chen, Xiaoyan Zhang, Zhirong Liu, Zhenhua Dong, and Xiuqiang He",
-    "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/5335"
+    "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/5335",
+    "quote": "Guibing Guo, Bowei Chen, Xiaoyan Zhang, Zhirong Liu, Zhenhua Dong, and Xiuqiang He, \"Leveraging Title-Abstract Attentive Semantics for Paper Recommendation\", The Association for the Advance of Artificial Intelligence (AAAI), 2019, 1-8."
   },
   {
     "id": 32,
@@ -125,7 +140,8 @@
     "journal": "ACM Multimedia Asia Conference (MM Asia)",
     "year": "2019",
     "author": "Zeyang Zhang, Xiaobo Zhou, Shengjie Zhao, and Xiaoyan Zhang",
-    "pdf": "https://dl.acm.org/doi/abs/10.1145/3338533.3366587"
+    "pdf": "https://dl.acm.org/doi/abs/10.1145/3338533.3366587",
+    "quote": "Zeyang Zhang, Xiaobo Zhou, Shengjie Zhao, and Xiaoyan Zhang, \"Semantic Prior Guided Face Inpainting\", ACM Multimedia Asia Conference (MM Asia), 2019, 1-6."
   },
   {
     "id": 31,
@@ -133,7 +149,8 @@
     "journal": "Multimedia Tools and Applications",
     "year": "2018",
     "author": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan",
-    "pdf": "https://link.springer.com/article/10.1007/s11042-018-5629-x"
+    "pdf": "https://link.springer.com/article/10.1007/s11042-018-5629-x",
+    "quote": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan, \"Transfer of Content-aware Vignetting Effect from Paintings to Photographs\", Multimedia Tools and Applications, 2018, 77:23851–23875."
   },
   {
     "id": 30,
@@ -141,7 +158,8 @@
     "journal": "International Conference on Systems and Informatics (CSI)",
     "year": "2018",
     "author": "Xianqiang Liu, Xiaoyan Zhang*, Shenghua Zhong, and Jianmin Jiang",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/8599391/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/8599391/",
+    "quote": "Xianqiang Liu, Xiaoyan Zhang*, Shenghua Zhong, and Jianmin Jiang, \"Dynamic Assessment of Contact Pressure Changes in the Hip Joint Cartialge during Daily Activities\", International Conference on Systems and Informatics (CSI), 2018, 570-575."
   },
   {
     "id": 29,
@@ -149,7 +167,8 @@
     "journal": "The Pacific-Rim Conference on Multimedia (PCM)",
     "year": "2018",
     "author": "Zhijiao Xiao, Xiaole Zhang, and Xiaoyan Zhang*",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-00776-8_8"
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-00776-8_8",
+    "quote": "Zhijiao Xiao, Xiaole Zhang, and Xiaoyan Zhang*, \"Semantic Correspondence Guided Deep Photo Style Transfer\", The Pacific-Rim Conference on Multimedia (PCM), 2018, 81-93."
   },
   {
     "id": 28,
@@ -157,7 +176,8 @@
     "journal": "Springer",
     "year": "2017",
     "author": "Xiaoyan Zhang, Martin Constable, Kap Luk Chan, et al",
-    "pdf": "https://researchrepository.rmit.edu.au/esploro/outputs/book/Computational-Approaches-in-the-Transfer-of/9921860432301341"
+    "pdf": "https://researchrepository.rmit.edu.au/esploro/outputs/book/Computational-Approaches-in-the-Transfer-of/9921860432301341",
+    "quote": "Xiaoyan Zhang, Martin Constable, Kap Luk Chan, et al., \"Computational Approaches in the Transfer of Aesthetic Values from Paintings to Photographs: Beyond Red, Green and Blue\", Springer, ISBN 978-981-10-3561-6, 2017."
   },
   {
     "id": 27,
@@ -165,7 +185,8 @@
     "journal": "Biomechanics and Modeling in Mechanobiology",
     "year": "2017",
     "author": "Xiaoyan Zhang, Daeseung Kim, Shunyao Shen, et al.",
-    "pdf": "https://link.springer.com/article/10.1007/s10237-017-0967-6"
+    "pdf": "https://link.springer.com/article/10.1007/s10237-017-0967-6",
+    "quote": "Xiaoyan Zhang, Daeseung Kim, Shunyao Shen, et al., \"An eFTD-VP framework for efficiently generating patient-specific anatomically detailed facial soft tissue FE mesh for craniomaxillofacial surgery simulation\", Biomechanics and Modeling in Mechanobiology, 2017."
   },
   {
     "id": 26,
@@ -173,23 +194,26 @@
     "journal": "Neurocomputing",
     "year": "2017",
     "author": "Yingying Zhu, Gaoyang Tang, Xiaoyan Zhang∗, Jianmin Jiang, Qi Tian",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S0925231217314856"
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S0925231217314856",
+    "quote": "Yingying Zhu, Gaoyang Tang, Xiaoyan Zhang∗, Jianmin Jiang, Qi Tian, \"Haze removal method for natural restoration of images with sky\", Neurocomputing, 2017."
   },
   {
     "id": 25,
     "title": "Automatic monitoring refractive index variations of transient solution during electrochemical reactions",
     "journal": "Measurement",
     "year": "2017",
-    "author": "Zhuopeng Li, and Xiaoyan Zhang*",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S0263224116306704"
+    "author": "Boyu Yuan, Shen Tong, Xiaoyan Zhang, Liang Li, Chao Wang",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S0263224116306704",
+    "quote": "Boyu Yuan, Shen Tong, Xiaoyan Zhang, Liang Li, Chao Wang, \"Automatic monitoring refractive index variations of transient solution during electrochemical reactions\", Measurement, 98, PP:10-16, 2017."
   },
   {
     "id": 24,
     "title": "A Clinically Validated Simulation Method for Facial Soft Tissue Change Prediction Following Double-Jaw Orthognathic Surgery",
     "journal": "Medical Physics",
     "year": "2017",
-    "author": "Zhuopeng Li, and Xiaoyan Zhang*",
-    "pdf": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.12391"
+    "author": "Daeseung Kim, Dennis Chun-Yu Ho, Huaming Mai, Xiaoyan Zhang, Steve G.F. Shen, et al.",
+    "pdf": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.12391",
+    "quote": "Daeseung Kim, Dennis Chun-Yu Ho, Huaming Mai, Xiaoyan Zhang, Steve G.F. Shen, et al. \"A Clinically Validated Simulation Method for Facial Soft Tissue Change Prediction Following Double-Jaw Orthognathic Surgery\", Medical Physics, 44(8):4252-4261, 2017."
   },
   {
     "id": 23,
@@ -197,7 +221,8 @@
     "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2017",
     "author": "Xiaoyan Zhang, Martin Constable, Kap Luk Chan",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/7952498/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/7952498/",
+    "quote": "Xiaoyan Zhang, Martin Constable, Kap Luk Chan, \"Transfer of vignetting effect from paintings to photographs\", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2017."
   },
   {
     "id": 22,
@@ -205,7 +230,8 @@
     "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2017",
     "author": "Xiaoyan Zhang, Kap Luk Chan, Martin Constable",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/8319951/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/8319951/",
+    "quote": "Xiaoyan Zhang, Kap Luk Chan, Martin Constable, \"Pose-based composition improvement for portrait photographs\", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2017."
   },
   {
     "id": 21,
@@ -213,7 +239,8 @@
     "journal": "Medical Engineering and Physics",
     "year": "2016",
     "author": "Guangming Zhang , James J. Xia, Michael Liebschner, Xiaoyan Zhang, Daeseung Kim, Xiaobo Zhou",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S1350453316302089"
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S1350453316302089",
+    "quote": "Guangming Zhang , James J. Xia, Michael Liebschner, Xiaoyan Zhang, Daeseung Kim, Xiaobo Zhou, \"Improved Rubin–Bodner model for the prediction of soft tissue deformations\", Medical Engineering and Physics，38，1369-1375，2016."
   },
   {
     "id": 20,
@@ -221,7 +248,8 @@
     "journal": "Annals of Biomedical Engineering",
     "year": "2016",
     "author": "Xiaoyan Zhang, Zhen Tang, et al",
-    "pdf": "https://link.springer.com/content/pdf/10.1007/s10439-015-1480-7.pdf"
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s10439-015-1480-7.pdf",
+    "quote": "Xiaoyan Zhang, Zhen Tang, et al. \"An eFace-Template Method for Efficiently Generating Patient-Specific Anatomically-Detailed Facial Soft Tissue FE Models for Craniomaxillofacial Surgery Simulation\", Annals of Biomedical Engineering,44(5), pp 1656-1671, 2016."
   },
   {
     "id": 19,
@@ -229,7 +257,8 @@
     "journal": "International Conference on Medical Imaging and Virtual Reality",
     "year": "2016",
     "author": "Daeseung Kim, Huaming Mai, Chien-Ming Chang, Dennis Chun-Yu Ho, Xiaoyan Zhang, et al",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-3-319-43775-0_3"
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-319-43775-0_3",
+    "quote": "Daeseung Kim, Huaming Mai, Chien-Ming Chang, Dennis Chun-Yu Ho, Xiaoyan Zhang, et al., \"FEM Simulation with Realistic Sliding Effect to Improve Facial-Soft-Tissue-Change Prediction Accuracy for Orthognathic Surgery\", International Conference on Medical Imaging and Virtual Reality, 2016."
   },
   {
     "id": 18,
@@ -237,7 +266,8 @@
     "journal": "Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
     "year": "2016",
     "author": "Daeseung Kim, Chien-Ming Chang, Dennis Chun-Yu Ho, Xiaoyan Zhang, et al",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-3-319-46720-7_65"
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-319-46720-7_65",
+    "quote": "Daeseung Kim, Chien-Ming Chang, Dennis Chun-Yu Ho, Xiaoyan Zhang, et al. \"Two-Stage Simulation Method to Improve Facial Soft Tissue Prediction Accuracy for Orthognathic Surgery\". Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2016."
   },
   {
     "id": 17,
@@ -245,7 +275,8 @@
     "journal": "The 12th World Congress on Intelligent Control and Automation (WCICA)",
     "year": "2016",
     "author": "Zhijun Zhang, Siwei Li, and Xiaoyan Zhang",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/7578412/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/7578412/",
+    "quote": "Zhijun Zhang, Siwei Li, and Xiaoyan Zhang, \"Simulink Comparison of Varying-Parameter Convergent-Differential Neural-Network and Gradient Neural Network for Solving Online Linear Time-Varying Equations\". The 12th World Congress on Intelligent Control and Automation (WCICA), 2016."
   },
   {
     "id": 16,
@@ -253,7 +284,8 @@
     "journal": "2016 IEEE World Congress on Computational Intelligence (WCCI)",
     "year": "2016",
     "author": "Zhijun Zhang, Jianli Yu, Yuanqing Li,Xiaoyan Zhang",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/7737777/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/7737777/",
+    "quote": "Zhijun Zhang, Jianli Yu, Yuanqing Li,Xiaoyan Zhang, \"A New Neural-Dynamic Control Method of Position and Angular Stabilization for Autonomous Quadrotor UAVs\". 2016 IEEE World Congress on Computational Intelligence (WCCI ), 2016."
   },
   {
     "id": 15,
@@ -261,7 +293,8 @@
     "journal": "Journal of Oral and Maxillofacial Surgery",
     "year": "2015",
     "author": "James J. Xia, Jaime Gateno, J. F. Teichgraeber, P. Yuan, K.-C. Chen, J. Li,Xiaoyan Zhang,et al",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S0901502715002210"
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S0901502715002210",
+    "quote": "James J. Xia, Jaime Gateno, J. F. Teichgraeber, P. Yuan, K.-C. Chen, J. Li,Xiaoyan Zhang,et al. \"Algorithm for planning a double-jaw orthognathic surgery using a computer-aided surgical simulation (CASS) protocol. Part 1: planning sequence\", Journal of Oral and Maxillofacial Surgery, 44, pp: 1431–1440, 2015."
   },
   {
     "id": 14,
@@ -269,7 +302,8 @@
     "journal": "Journal of International Colour Association",
     "year": "2015",
     "author": "Martin Constable, Junyan Wang, Kap Luk Chan, and Xiaoyan Zhang",
-    "pdf": "https://aic-color.org/resources/Documents/jaic_14_03.pdf"
+    "pdf": "https://aic-color.org/resources/Documents/jaic_14_03.pdf",
+    "quote": "Martin Constable, Junyan Wang, Kap Luk Chan, and Xiaoyan Zhang. \"A Definition of Global Hue Contrast in Artworks\", Journal of International Colour Association, 2015."
   },
   {
     "id": 13,
@@ -277,7 +311,8 @@
     "journal": "Medical Image Computing and Computer-Assisted Intervention (MICCAI),Munich",
     "year": "2015",
     "author": "Jianfu Li, Flavio Ferraz, Shunyao Shen, Yi-Fang Lo,Xiaoyan Zhang, et al",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-3-319-24553-9_60"
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-319-24553-9_60",
+    "quote": "Jianfu Li, Flavio Ferraz, Shunyao Shen, Yi-Fang Lo,Xiaoyan Zhang, et al. \"Automated Three-Piece Digital Dental Articulation\". Medical Image Computing and Computer-Assisted Intervention (MICCAI),Munich，Germany, pp. 278-286, 2015."
   },
   {
     "id": 12,
@@ -285,7 +320,8 @@
     "journal": "IEEE International Conference on Image Processing",
     "year": "2015",
     "author": "Guangming Zhang, James J. Xia, Xiaoyan Zhang, and Xiaobo Zhou",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/7351312/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/7351312/",
+    "quote": "Guangming Zhang, James J. Xia, Xiaoyan Zhang, and Xiaobo Zhou, \"Prediction of facial soft tissue deformations with improved rubin-bodner model after craniomaxillofacial (CMF) surgery\", IEEE International Conference on Image Processing, pp:2796-2800, 2015."
   },
   {
     "id": 11,
@@ -293,7 +329,8 @@
     "journal": "IEEE Transactions on Multimedia",
     "year": "2014",
     "author": "Xiaoyan Zhang, Kap Luk Chan, and Martin Constable",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/6709812/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/6709812/",
+    "quote": "Xiaoyan Zhang, Kap Luk Chan, and Martin Constable, \"Atmospheric Perspective Contrast Enhancement of Landscape Photographs through Depth-aware Contrast Manipulation\", IEEE Transactions on Multimedia, 16 (3), pp. 653 – 667, 2014."
   },
   {
     "id": 10,
@@ -301,7 +338,8 @@
     "journal": "Computer Graphics Forum",
     "year": "2014",
     "author": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan",
-    "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12399"
+    "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12399",
+    "quote": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan, \"Exemplar-based Portrait Photograph Enhancement as informed by Portrait Paintings\", Computer Graphics Forum, 33(8), pp.38-51, 2014."
   },
   {
     "id": 9,
@@ -309,7 +347,8 @@
     "journal": "Microelectronic Engineering",
     "year": "2013",
     "author": "Boyu Yuan, Wei Li, Xiaoyan Zhang et al",
-    "pdf": "https://www.sciencedirect.com/science/article/pii/S0167931713002153"
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S0167931713002153",
+    "quote": "Boyu Yuan, Wei Li, Xiaoyan Zhang et al. \"Direct observation of the diffusion layer during copper electrodeposition\", Microelectronic Engineering, 107, pp.37-41, 2013."
   },
   {
     "id": 8,
@@ -317,7 +356,8 @@
     "journal": "International Conference on Pattern Recognition (ICPR)",
     "year": "2012",
     "author": "Xiaoyan Zhang,Martin Constable, and Kap Luk Chan",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/6460290/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/6460290/",
+    "quote": "Xiaoyan Zhang,Martin Constable, and Kap Luk Chan, \"Example-Based Contrast Enhancement for Portrait Photograph\". International Conference on Pattern Recognition (ICPR), Tsukuba, Japan, pp.943-946, 2012."
   },
   {
     "id": 7,
@@ -325,7 +365,8 @@
     "journal": "IEEE International Conference on Image Processing (ICIP)",
     "year": "2011",
     "author": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/6115622/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/6115622/",
+    "quote": "Xiaoyan Zhang, Martin Constable, and Kap Luk Chan, \"Aesthetic Enhancement of Landscape Photographs as Informed by Paintings across Depth Layers\", IEEE International Conference on Image Processing (ICIP), Brussels, Belguim, pp. 1137-1140, 2011."
   },
   {
     "id": 6,
@@ -333,7 +374,8 @@
     "journal": "IEEE International Conference on Cybernetics and Intelligent Systems (CIS)",
     "year": "2011",
     "author": "Xiaoyan Zhang, Kap Luk Chan, and Martin Constable",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/6070310/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/6070310/",
+    "quote": "Xiaoyan Zhang, Kap Luk Chan, and Martin Constable, \"Depth-based Reference Portrait Painting Selection for Example-based Rendering\", IEEE International Conference on Cybernetics and Intelligent Systems (CIS), Qingdao, China, pp. 105-110, 2011."
   },
   {
     "id": 5,
@@ -341,7 +383,8 @@
     "journal": "The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT)",
     "year": "2010",
     "author": "Xiaoyan Zhang, Martin Constable, and Ying He",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/5673980/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/5673980/",
+    "quote": "Xiaoyan Zhang, Martin Constable, and Ying He. \"On the Transfer of Painting Style to Photographic Images through Attention to Colour Contrast\", The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT), Singapore, pp.414-421, 2010."
   },
   {
     "id": 4,
@@ -349,7 +392,8 @@
     "journal": "The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT)",
     "year": "2010",
     "author": "Xiaoyan Zhang, Martin Constable, and Ying He",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/5673963/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/5673963/",
+    "quote": "Martin Constable, and Xiaoyan Zhang. \"Depth-based Analyses of Landscape Paintings and Photographs According to Itten’s Contrasts\". The Fourth Pacific-Rim Symposium on Image and Video Technology (PSIVT), Singapore, pp.481-486, 2010."
   },
   {
     "id": 3,
@@ -357,7 +401,8 @@
     "journal": "International Conference on Computational Intelligence and Security (CIS)",
     "year": "2008",
     "author": "Xiaoyan Zhang, Xiaojuan Wu, Xiaogang Wang et al",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/4724638/"
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/4724638/",
+    "quote": "Xiaoyan Zhang, Xiaojuan Wu, Xiaogang Wang et al. \"Automatic Detection and Tracking of Maneuverable Birds\". International Conference on Computational Intelligence and Security (CIS), Suzhou, China, pp.185-189, 2008."
   },
   {
     "id": 2,
@@ -365,7 +410,8 @@
     "journal": "International Conference on Biomedical Engineering",
     "year": "2008",
     "author": "Xiaoyan Zhang,Xiaojuan Wu, Xin Zhou et al",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-3-540-92841-6_461"
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-540-92841-6_461",
+    "quote": "Xiaoyan Zhang,Xiaojuan Wu, Xin Zhou et al. \"Birds’ Flap Frequency Measure Based on Automatic Detection and Tracking in Captured Videos\". International Conference on Biomedical Engineering, Singapore, pp.1858-1861, 2008."
   },
   {
     "id": 1,
@@ -373,6 +419,7 @@
     "journal": "Journal of Electrical & Electronic Education",
     "year": "2007",
     "author": "Xiaoyan Zhang, Xiaojuan Wu",
-    "pdf": "https://en.cnki.com.cn/Article_en/CJFDTotal-DQDZ200703030.htm"
+    "pdf": "https://en.cnki.com.cn/Article_en/CJFDTotal-DQDZ200703030.htm",
+    "quote": "Xiaoyan Zhang, Xiaojuan Wu. \"The website Construction of Circuit Analysis Excellent Courses\", Journal of Electrical & Electronic Education,29 (3),pp. 99-101, 2007."
   }
 ]

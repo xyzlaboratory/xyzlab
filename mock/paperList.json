@@ -35,10 +35,7 @@
         "fig": "Fig. 16. More experimental results. First row: Input photographs with pose, Second row: Selected example portrait paintings with pose, Third row: Cropping results using the proposed method. The experimental results and a user study show that the proposed method outperforms rule-based methods."
       }
     ],
-    "videos": [{
-      "video": "video/paper_video/00/01.mp4",
-      "fig": "video. 1. "
-    }]
+    "videos": []
   },
   {
     "id": 1,
