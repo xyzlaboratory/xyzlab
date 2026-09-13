@@ -116,7 +116,10 @@ function showPageList() {
     let paperListShow = $("#paperList");
     paperListShow.empty();
     $.each(allPaper,function(i,paper){
-        let row = '<div class="paper-list-row"><a class="paper-list-row-learn" href="'+paper.pdf+'"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.quote+'</a></div>'
+        let paperText = '<span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.quote;
+        let row = paper.pdf
+            ? '<div class="paper-list-row"><a class="paper-list-row-learn" href="'+paper.pdf+'">'+paperText+'</a></div>'
+            : '<div class="paper-list-row"><span class="paper-list-row-learn">'+paperText+'</span></div>';
         //let row = '<div class="paper-list-row"><span class="text-muted">'+paper.year+'&nbsp;&nbsp;</span>'+paper.title+'</div>'
         paperListShow.append(row);
     });

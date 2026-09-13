@@ -1,5 +1,158 @@
 [
   {
+    "id": 64,
+    "title": "MAGDiff: A Synergistic Multi-Attribute-Guided Diffusion Framework for Personalized Fashion Garment Generation",
+    "journal": "The Visual Computer",
+    "year": "2026",
+    "author": "Xiaoyan Zhang, Sisi Ren",
+    "pdf": "",
+    "quote": "Xiaoyan Zhang, Sisi Ren, \"MAGDiff: a synergistic multi-attribute-guided diffusion framework for personalized fashion garment generation\", The Visual Computer, 2026, 42(9):1-36."
+  },
+  {
+    "id": 63,
+    "title": "SG-Net: Semantic Guidance Network for Spectral Reconstruction from RGB Images",
+    "journal": "ACM Multimedia",
+    "year": "2026",
+    "author": "Liyuan Liu, Xiaoyan Zhang*, Yunlai Chen, Shenghua Zhong",
+    "pdf": "",
+    "quote": "Liyuan Liu, Xiaoyan Zhang*, Yunlai Chen, Shenghua Zhong, \"SG-Net: Semantic Guidance Network for Spectral Reconstruction from RGB Images\", ACM Multimedia, 2026, 1-8. Accepted."
+  },
+  {
+    "id": 62,
+    "title": "MIIG: Multi-Instance Interaction Generation in Text-to-Image Diffusion Models",
+    "journal": "IEEE International Conference on Multimedia and Expo (ICME)",
+    "year": "2026",
+    "author": "Yuheng Yuan, Xiaoyan Zhang*, Yongkai Huo",
+    "pdf": "",
+    "quote": "Yuheng Yuan, Xiaoyan Zhang*, Yongkai Huo, \"MIIG: Multi-Instance Interaction Generation in Text-to-Image Diffusion Models\", IEEE International Conference on Multimedia and Expo (ICME), 2026, 1-6."
+  },
+  {
+    "id": 61,
+    "title": "SAGA: Style-Aware Garment Generation via Multi-Modal Control",
+    "journal": "The International Federation of Automatic Control",
+    "year": "2026",
+    "author": "Xiaoyan Zhang, Sisi Ren, Yunlai Chen, Shuangshuang Han, Yongkai Huo",
+    "pdf": "",
+    "quote": "Xiaoyan Zhang, Sisi Ren, Yunlai Chen, Shuangshuang Han, Yongkai Huo, \"SAGA: Style-Aware Garment Generation via Multi-Modal Control\", The International Federation of Automatic Control, 2026, 1-6."
+  },
+  {
+    "id": 60,
+    "title": "NSGHG: Neural Surface Guided Generalizable Human Gaussian Splatting for Sparse View Synthesis",
+    "journal": "Neurocomputing",
+    "year": "2025",
+    "author": "Hong Xie, Xiaoyan Zhang, Yingying Zhu",
+    "pdf": "",
+    "quote": "Xie, Hong; Zhang, Xiaoyan; Zhu, Yingying, \"NSGHG: Neural surface guided generalizable human Gaussian splatting for sparse view synthesis\", Neurocomputing, 2025-11-07."
+  },
+  {
+    "id": 59,
+    "title": "HRL-Painter: Optimal Planning Painter Based on Hierarchical Reinforcement Learning",
+    "journal": "Neurocomputing",
+    "year": "2025",
+    "author": "Jiong Zhang, Guangxin Xu, Xiaoyan Zhang (张小燕)",
+    "pdf": "",
+    "quote": "Jiong Zhang, Guangxin Xu, Xiaoyan Zhang (张小燕), \"HRL-Painter: Optimal planning painter based on hierarchical reinforcement learning\", Neurocomputing, 2025."
+  },
+  {
+    "id": 58,
+    "title": "Weakly Supervised 3D Human Pose Estimation Based on PnP Projection Model",
+    "journal": "Pattern Recognition",
+    "year": "2025",
+    "author": "Xiaoyan Zhang (张小燕), Yunlai Chen, Huaijing Lai, Hongzhen Zhang",
+    "pdf": "",
+    "quote": "Xiaoyan Zhang (张小燕), Yunlai Chen, Huaijing Lai, Hongzhen Zhang, \"Weakly Supervised 3D Human Pose Estimation Based on PnP Projection Model\", Pattern Recognition, 2025, 1-33."
+  },
+  {
+    "id": 57,
+    "title": "VAT: Visibility Aware Transformer for Fine-Grained Clothed Human Reconstruction",
+    "journal": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": "2025",
+    "author": "Xiaoyan Zhang (张小燕), Zibin Zhu, Hong Xie, Sisi Ren, Jianmin Jiang",
+    "pdf": "",
+    "quote": "Xiaoyan Zhang (张小燕), Zibin Zhu, Hong Xie, Sisi Ren, Jianmin Jiang, \"VAT: Visibility Aware Transformer for Fine-Grained Clothed Human Reconstruction\", IEEE Transactions on Visualization and Computer Graphics, 2025, 1-16."
+  },
+  {
+    "id": 56,
+    "title": "VR-Recon: Visual Refiner for Fine-Grained Human Reconstruction",
+    "journal": "IEEE 4th International Conference on Digital Twins and Parallel Intelligence (DTPI)",
+    "year": "2024",
+    "author": "Hong Xie, Zibin Zhu, Xiaoyan Zhang (张小燕)*",
+    "pdf": "",
+    "quote": "Hong Xie, Zibin Zhu, Xiaoyan Zhang (张小燕)*, \"VR-Recon: Visual Refiner for Fine-Grained Human Reconstruction\", IEEE 4th International Conference on Digital Twins and Parallel Intelligence (DTPI), 2024, 1-6."
+  },
+  {
+    "id": 55,
+    "title": "DDSR: Degradation-Aware Diffusion Model for Spectral Reconstruction from RGB Images",
+    "journal": "Remote Sensing",
+    "year": "2024",
+    "author": "Yunlai Chen, Xiaoyan Zhang (张小燕)*",
+    "pdf": "",
+    "quote": "Yunlai Chen, Xiaoyan Zhang (张小燕)*, \"DDSR: Degradation-Aware Diffusion Model for Spectral Reconstruction from RGB Images\", Remote Sensing, 2024, 1-26."
+  },
+  {
+    "id": 54,
+    "title": "基于双向时空特征学习的人体深度图像估计",
+    "journal": "计算机工程",
+    "year": "2024",
+    "author": "朱子斌, 李千林, 张小燕*, 韩双双",
+    "pdf": "",
+    "quote": "朱子斌, 李千林, 张小燕*, 韩双双, \"基于双向时空特征学习的人体深度图像估计\", 《计算机工程》, 2024, 1-6."
+  },
+  {
+    "id": 53,
+    "title": "BiPR-RL: Portrait Relighting via Bi-directional Consistent Deep Reinforcement Learning",
+    "journal": "Computer Vision and Image Understanding",
+    "year": "2024",
+    "author": "Yukai Song, Guangxin Xu, Xiaoyan Zhang*, Zhijun Zhang",
+    "pdf": "",
+    "quote": "Yukai Song, Guangxin Xu, Xiaoyan Zhang*, Zhijun Zhang, \"BiPR-RL: Portrait Relighting via Bi-directional Consistent Deep Reinforcement Learning\", Computer Vision and Image Understanding, 2024, 239:1-15."
+  },
+  {
+    "id": 52,
+    "title": "RepEPnP: Weakly Supervised 3D Human Pose Estimation Using an EPnP Reprojection Model",
+    "journal": "International Joint Conference on Neural Networks",
+    "year": "2023",
+    "author": "Huaijing Lai, Xiaoyan Zhang (张小燕)*",
+    "pdf": "",
+    "quote": "Huaijing Lai, Xiaoyan Zhang (张小燕)*, \"RepEPnP: Weakly Supervised 3D Human Pose Estimation Using an EPnP Reprojection Model\", International Joint Conference on Neural Networks, 2023, 1-8."
+  },
+  {
+    "id": 51,
+    "title": "Video-Based Self-Supervised Human Depth Estimation",
+    "journal": "Computer Graphics International Conference",
+    "year": "2023",
+    "author": "Qianlin Li, Xiaoyan Zhang (张小燕)*",
+    "pdf": "",
+    "quote": "Qianlin Li and Xiaoyan Zhang (张小燕)*, \"Video-Based Self-Supervised Human Depth Estimation\", Computer Graphics International Conference, 2023, 1-12."
+  },
+  {
+    "id": 50,
+    "title": "Deformable Patch Embedding Based Shift Module Enhanced Transformer for Panoramic Action Recognition",
+    "journal": "The Visual Computer",
+    "year": "2023",
+    "author": "Xiaoyan Zhang (张小燕), Yujie Cui, Yongkai Huo",
+    "pdf": "",
+    "quote": "Xiaoyan Zhang (张小燕), Yujie Cui and Yongkai Huo, \"Deformable Patch Embedding Based Shift Module Enhanced Transformer for Panoramic Action Recognition\", The Visual Computer, 2023, 1-8."
+  },
+  {
+    "id": 49,
+    "title": "FFFN: Fashion Feature Fusion Network by Co-Attention Model for Fashion Recommendation",
+    "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2023",
+    "author": "Zhantu Lin, Xiaoyan Zhang (张小燕)*",
+    "pdf": "",
+    "quote": "Zhantu Lin, Xiaoyan Zhang (张小燕)*, \"FFFN: Fashion Feature Fusion Network by Co-Attention Model for Fashion Recommendation\", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023, 1-5."
+  },
+  {
+    "id": 48,
+    "title": "Reference-Based Video Colorization With Multi-Scale Semantic Fusion And Temporal Augmentation",
+    "journal": "IEEE International Conference on Image Processing (ICIP)",
+    "year": "2021",
+    "author": "Yaxin Liu, Xiaoyan Zhang (张小燕)*, Xiaogang Xu",
+    "pdf": "",
+    "quote": "Yaxin Liu, Xiaoyan Zhang (张小燕)*, Xiaogang Xu, \"Reference-Based Video Colorization With Multi-Scale Semantic Fusion And Temporal Augmentation\", IEEE International Conference on Image Processing (ICIP), 2021, 1924-1928."
+  },
+  {
     "id": 47,
     "title": "PR-RL: Portrait Relighting via Deep Reinforcement Learning",
     "journal": "IEEE Transactions on Multimedia",
