@@ -419,7 +419,7 @@
     "images": [
       {
         "image": "img/paper_img/12/quality.png",
-        "fig": "Fig. 1.  Comparison on fine-grained reconstruction using the THuman2.0 dataset. Compared with the of state-of-the-art methods, our method generates more realistic reconstructions, with more detailed wrinkles on clothes and more complete details on hands and faces."
+        "fig": "Fig. 1. Comparison on fine-grained reconstruction using the THuman2.0 dataset. Compared with the of state-of-the-art methods, our method generates more realistic reconstructions, with more detailed wrinkles on clothes and more complete details on hands and faces."
       },
       {
         "image": "img/paper_img/12/image.JPG",
@@ -428,6 +428,58 @@
       {
         "image": "img/paper_img/12/image2.JPG",
         "fig": "Fig. 3. Comparison with ECON and DiffuStereo on RenderPeople."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "NSGHG: Neural surface guided generalizable human Gaussian splatting for sparse view synthesis",
+    "authorUnit": "Shenzhen University",
+    "journal": "Neurocomputing",
+    "year": "2025",
+    "author": "Hong Xie, Xiaoyan Zhang, Yingying Zhu",
+    "brief": "We propose Neural Surface Guided Generalizable Human Gaussian Splatting (NSGHG), a framework for synthesizing high-fidelity novel views of unseen human subjects from highly sparse input images",
+    "abstract": "We propose Neural Surface Guided Generalizable Human Gaussian Splatting (NSGHG), a framework for synthesizing high-fidelity novel views of unseen human subjects from highly sparse input images, without tedious optimization or fine-tuning. Existing generalizable methods either struggle with sparsely sampled views with limited overlap or perform poorly when facing complex human geometry. To address these issues, we propose to employ a neural surface estimation module that predicts occupancy to guide the adaptive displacement of a human template toward the true surface, generating surface-aligned multi-shells and regressing human Gaussians from their surface to more efficiently capture complex human geometry. Furthermore, we propose a double-geometry MLP architecture that shares geometric feature embeddings between the neural surface estimator and the Gaussian parameter regressor, facilitating finer-grained geometry and appearance modeling of the human Gaussians. Moreover, NSGHG supports end-to-end joint training of both the neural surface estimation and the Gaussian parameter regression modules. Extensive experiments on multiple benchmark datasets show that our method significantly outperforms state-of-the-art techniques in both novel view synthesis quality and cross-dataset generalization.",
+    "github": "none",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S092523122501879X",
+    "images": [
+      {
+        "image": "img/paper_img/13/image.JPG",
+        "fig": "Fig. 1. Overview. Given sparse human-centric RGB views and a fitted human template, our method first extracts and fuses multi-view features using an image encoder and a visibility-aware transformer (VAT). These features are passed to a double-geometry MLP to estimate the neural surface of coarse multi-shells, which then guides the deformation of the template to build surface-aligned multi-shells. The neural surface estimator further computes geometry features for each shell vertex. By UV mapping the shell positions and geometry features into 2D UV space, we obtain visual and geometry cues, which are used to regress Gaussian parameters. These shell-anchored Gaussians are subsequently rasterized to synthesize novel views. Finally, our end-to-end framework enables joint training that simultaneously enhances the accuracy of both neural surface reconstruction and Gaussian parameter estimation."
+      },
+      {
+        "image": "img/paper_img/13/image2.JPG",
+        "fig": "Fig. 2. Qualitative evaluation under 3-view input setting. Compared to state-of-the-art methods, our approach generates more accurate geometries and finer details on both THuman2.0 and XHuman datasets."
+      },
+      {
+        "image": "img/paper_img/13/image3.jpg",
+        "fig": "Fig. 3. Qualitative evaluation under 5-view input setting. Compared to state-of-the-art methods, our approach generates more plausible renderings with finer facial/hand details and more complete clothing geometries on both THuman2.0 and XHuman datasets."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "MAGDiff: a synergistic multi-attribute-guided diffusion framework for personalized fashion garment generation",
+    "authorUnit": "Shenzhen University",
+    "journal": "The Visual Computer",
+    "year": "2026",
+    "author": "Xiaoyan Zhang, Sisi Ren",
+    "brief": "we propose MAGDiff, a synergistic multi-attribute-guided diffusion framework for personalized fashion garment generation. MAGDiff jointly models text, structure and style information within a unified diffusion process for fine-grained and controllable garment synthesis.",
+    "abstract": "Personalized fashion garment generation aims to synthesize customized designs by integrating multiple conditioning attributes such as text, sketch, texture and color. However, existing methods often struggle with blurred textures, color distortion and modality interference when fusing these diverse inputs. Here, we propose MAGDiff, a synergistic multi-attribute-guided diffusion framework for personalized fashion garment generation. MAGDiff jointly models text, structure and style information within a unified diffusion process for fine-grained and controllable garment synthesis. Specifically, a synergistic dual-stream style integration mechanism is proposed to combine global style features with latent texture details, ensuring accurate preservation of both fine-grained texture and color distribution. To alleviate attribute interference between structure and style induced by direct feature concatenation, we further design a synergistic attribute-conditioned modulation mechanism, which regulates the interaction between structure and style features across multiple scales through learnable gated fusion, enabling adaptively to balance their contributions while maintaining structural consistency and fine-grained style. Moreover, a complementary decoupled attention strategy separates textual and stylistic guidance into parallel attention branches, reducing cross-modal redundancy caused by overlapping conditions and enhancing generation controllability. Extensive experiments on two large-scale fashion datasets (CM-Fashion-s and Polyvore-s) demonstrate that MAGDiff outperforms representative methods across multiple metrics: it achieves an FID of 15.48 (CM-Fashion-s) and 12.89 (Polyvore-s), LPIPS of 0.265 and 0.281 and superior color distribution scores (CDH of 10.31 and 10.09). MAGDiff provides a robust and flexible solution for multi-attribute-guided personalized garments generation, advancing the controllability and visual fidelity of AI-driven fashion design.",
+    "github": "https://github.com/Preciousrs/MAGDiff",
+    "pdf": "https://link.springer.com/article/10.1007/s00371-026-04611-x",
+    "images": [
+      {
+        "image": "img/paper_img/14/image3.jpg",
+        "fig": "Fig. 1. Qualitative results of MAGDiff compared with representative image-to-image methods. Compared with representative methods, our method generates more detailed textures, accurate colors, and more accurate structure"
+      },
+      {
+        "image": "img/paper_img/14/image4.JPG",
+        "fig": "Fig. 2. The overall framework of MAGDiff. We utilize three control conditions, text description, structure and style images, to generate personalized fashion garments. The model performs iterative denoising (t steps), the noisy latent is progressively refined across time steps. At each step, the time step t is encoded into a time embedding and injected into the UNet to condition the denoising process."
+      },
+      {
+        "image": "img/paper_img/14/image5.JPG",
+        "fig": "Fig. 3. Comparison of qualitative results between MAGDiff and representative multi-modal methods. Our method generates garments that conform to the text description, rationally blending structural details and stylistic elements"
       }
     ]
   },
