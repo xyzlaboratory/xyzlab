@@ -412,7 +412,7 @@
     "journal": "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS",
     "year": "2025",
     "author": "Xiaoyan Zhang , Zibin Zhu , Hong Xie , Sisi Ren , and Jianmin Jiang",
-    "brief": "MIIG introduces a multi-attribute-guided diffusion framework that uses action masks and decoupled attention streams to improve spatial localization and semantic interaction control in text-to-image generation.",
+    "brief": "We propose a deep cooperating two-level global to fine-grained reconstruction framework that constructs robust global geometry to guide fine-grained geometry learning.",
     "abstract": "In order to reconstruct 3D clothed human with accurate fine-grained details from sparse views, we propose a deep cooperating two-level global to fine-grained reconstruction framework that constructs robust global geometry to guide fine-grained geometry learning. The core of the framework is a novel visibility aware Transformer VAT, which bridges the two-level reconstruction architecture by connecting its global encoder and fine-grained decoder with two pixel-aligned implicit functions, respectively. The global encoder fuses semantic features of multiple views to integrate global geometric features. In the fine-grained decoder, visibility aware attention mechanism is designed to efficiently fuse multi-view and multi-scale features for mining fine-grained geometric features. The global encoder and fine-grained decoder are connected by a global embeding module to form a deep cooperation in the two-level framework, which provides global geometric embedding as a query guidance for calculating visibility aware attention in the fine-grained decoder. In addition, to extract highly aligned multi-scale features for the two-level reconstruction architecture, we design an image feature extractor MSUNet, which establishes strong semantic connections between different scales at minimal cost. Our proposed framework is end-to-end trainable, with all modules jointly optimized. We validate the effectiveness of our framework on public benchmarks, and experimental results demonstrate that our method has significant advantages over stateof-the-art methods in terms of both fine-grained performance and generalization.",
     "github": "none",
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10836818",
@@ -422,11 +422,11 @@
         "fig": "Fig. 1.  Comparison on fine-grained reconstruction using the THuman2.0 dataset. Compared with the of state-of-the-art methods, our method generates more realistic reconstructions, with more detailed wrinkles on clothes and more complete details on hands and faces."
       },
       {
-        "image": "img/paper_img/12/image.png",
+        "image": "img/paper_img/12/image.JPG",
         "fig": "Fig. 2. The framework of our VAT method. We design MSUNet to extract multi-scale features. Then visibility aware Transformer is decoupled into a global encoder and a fine-grained decoder. They are connected with two pixel-aligned implicit functions, which are fitted by MLPs, to form a two-level global to fine-grained reconstructions framework. The global geometric embedding is constructed by a global embedding module to guide the decoder perceiving view visibility for mining fine-grained geometric features."
       },
       {
-        "image": "img/paper_img/12/image2.png",
+        "image": "img/paper_img/12/image2.JPG",
         "fig": "Fig. 3. Comparison with ECON and DiffuStereo on RenderPeople."
       }
     ]
